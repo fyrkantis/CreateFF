@@ -1,0 +1,10 @@
+/*
+!/.gitignore
+
+!config/
+!defaultconfig/
+!mods/
+!profileImage/
+!resourcepacks/
+!scripts/
+!shaderpacks/
