@@ -1,6 +1,0 @@
-
-#Modify Client-Side changes
-[Options]
-	#Does the player screen desaturate on their last down?
-	lastDownDesaturate = false
-

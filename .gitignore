@@ -1,7 +1,7 @@
 /*
 !/.gitignore
 
-!config/
+#!config/
 !defaultconfig/
 !mods/
 !profileImage/
