@@ -1,0 +1,44 @@
+
+#Toggles that dramatically alter the behavior of incapacitations
+[Modifiers]
+	#Are players immune to damage while downed?
+	merciful = false
+	#Can players revive themselves with a (non-player) kill?
+	hunter = false
+	#Are Incapacitated players slowed down dramatically?
+	slow = false
+	#Are Incapacitated players weakened dramatically?
+	weakened = false
+	#Does being restful award players with another down?
+	regenerating = false
+	#Does the player have unlimited downs?
+	unlimitedDowns = false
+	#Does the player die when they log out while downed
+	downLogging = false
+	#Does the player receive a chat message when revived with information
+	reviveMessage = true
+
+#Modify Components that can be handled serverside
+[Options]
+	#A list of comma separated item IDs for foods player can eat to revive themselves. IE: minecraft:enchanted_golden_apple,minecraft:apple
+	foodReviveList = "minecraft:enchanted_golden_apple"
+	#A list of comma separated item IDs for foods player can eat to reset their down counters. IE: minecraft:golden_apple,minecraft:golden_carrot
+	foodHealList = "minecraft:golden_apple"
+	#How many ticks a player can be downed without dying.
+	#Range: > 20
+	downTicks = 2000
+	#How long it takes to revive a downed player manually
+	#Range: > 5
+	reviveTicks = 150
+	#How many times a player can go down without a healing or revive item, without instantly dying the next time they are supposed to go down.
+	#Range: > 1
+	downCounter = 3
+	#Do players glow while downed to be easier to find?
+	glowingWhileDowned = true
+	#Do some damage types like Lava down players, or instantly kill?
+	someInstantKills = true
+	#Are incapacitation messages global?
+	globalIncapMessage = true
+	#Are revive messages global?
+	globalReviveMessage = true
+
