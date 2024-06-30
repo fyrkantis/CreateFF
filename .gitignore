@@ -8,3 +8,5 @@
 !resourcepacks/
 !scripts/
 !shaderpacks/
+
+!/minecraftinstance.json
