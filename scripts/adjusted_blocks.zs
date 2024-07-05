@@ -28,14 +28,8 @@ blastFurnace.addRecipe("limesten", <item:create:limestone>,<item:minecraft:calci
 
 <recipetype:create:compacting>.addRecipe("tufft_tuff", <constant:create:heat_condition:superheated>, [<item:minecraft:tuff>], [<item:minecraft:dripstone_block>,<item:minecraft:iron_nugget> * 3,<item:minecraft:cobbled_deepslate>,<item:minecraft:calcite>], [<fluid:minecraft:lava> * 1000], 600);
 
-//glowstick
-recipes.remove(<item:create_stuff_additions:refined_radiance_neon>); 
-<recipetype:create:deploying>.addRecipe("ljuspinne", <item:minecraft:end_rod>, <tag:items:forge:glass>, [<item:create_stuff_additions:refined_radiance_neon>], false);
-
-
 //rose quarts
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("aaaaaaaaa")
-                                                      .transitionTo(<item:create_stuff_additions:tungsten_nugget>)
                                                       .require(<item:biomesoplenty:rose_quartz_block>)
                                                       .loops(1)
                                                       .addOutput(<item:create:rose_quartz>, 1)
@@ -83,8 +77,8 @@ recipes.remove(<item:createaddition:alternator>);
     ]);
 
 
-recipes.remove(<item:createaddition:accumulator>); 
-<recipetype:create:mechanical_crafting>.addMirroredRecipe("batari", <item:createaddition:accumulator>, [
+recipes.remove(<item:createaddition:modular_accumulator>); 
+<recipetype:create:mechanical_crafting>.addMirroredRecipe("batari", <item:createaddition:modular_accumulator>, [
     [<item:minecraft:air>, <item:createaddition:connector>, <item:minecraft:air> ,<item:createaddition:connector> ,<item:minecraft:air>], 
     [<item:create:brass_sheet>, <item:createaddition:capacitor>, <item:createaddition:gold_spool> ,<item:createaddition:capacitor> ,<item:create:brass_sheet>],
     [<item:create:brass_sheet>, <item:createaddition:capacitor>, <item:create:precision_mechanism> ,<item:createaddition:capacitor> ,<item:create:brass_sheet>],

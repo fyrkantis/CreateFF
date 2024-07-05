@@ -3,17 +3,6 @@ craftingTable.addShapeless("credit", <item:minecraft:bedrock>.withTag({RepairCos
 //simpla andringar
 
 
-//honung
-
-recipes.remove(<item:honeyexpansion:honey_berries>); 
-<recipetype:create:filling>.addRecipe("honung_bar", <item:honeyexpansion:honey_berries>, <item:minecraft:sweet_berries>, <fluid:create:honey> * 125);
-
-
-recipes.remove(<item:honeyexpansion:honey_bricks>); 
-<recipetype:create:filling>.addRecipe("honung_bricka", <item:honeyexpansion:honey_bricks>,<item:minecraft:stone_bricks>, <fluid:create:honey> * 25);
-
-
-
 //dough compatibility
 //tar bort create dough och använder istället farmers delight dough 
 //använder inte create dough för att cooking pot verkar inte fungera med craft tweeker
