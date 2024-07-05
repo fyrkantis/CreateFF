@@ -5,8 +5,6 @@ import crafttweaker.api.GenericRecipesManager;
 recipes.remove(<item:littlelogistics:chest_car>);
 recipes.remove(<item:littlelogistics:switch_rail>);
 recipes.remove(<item:littlelogistics:fluid_car>);
-recipes.remove(<item:littlelogistics:chunk_loader_car>);
-recipes.remove(<item:littlelogistics:chunk_loader_barge>);
 recipes.remove(<item:littlelogistics:seater_car>);
 recipes.remove(<item:littlelogistics:steam_locomotive>);
 recipes.remove(<item:littlelogistics:energy_locomotive>);
@@ -19,12 +17,11 @@ recipes.remove(<item:littlelogistics:junction_rail>);
 recipes.remove(<item:littlelogistics:car_dock_rail>);
 recipes.remove(<item:littlelogistics:locomotive_dock_rail>);
 
-recipes.remove(<item:create_stuff_additions:encased_jet_chestplate>);
-recipes.remove(<item:create_stuff_additions:andesite_encased_jet_chestplate>);
-recipes.remove(<item:create_stuff_additions:nozzle_fan>);
-recipes.remove(<item:create_stuff_additions:blaze_flame_thrower>);
-recipes.remove(<item:create_stuff_additions:brass_portable_drill>);
-recipes.remove(<item:create_stuff_additions:grapplin_whisk>);
+recipes.remove(<item:create_sa:brass_jetpack_chestplate>);
+recipes.remove(<item:create_sa:andesite_jetpack_chestplate>);
+recipes.remove(<item:create_sa:flamethrower>);
+recipes.remove(<item:create_sa:brass_drill_head>);
+recipes.remove(<item:create_sa:grapplin_whisk>);
 
 recipes.remove(<item:alexsmobs:animal_dictionary>);
 
