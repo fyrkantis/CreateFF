@@ -1,11 +1,12 @@
 /*
 !/.gitignore
-!/temp/
 
 # This is our NOT ignore list
 
 !mods/
 !profileImage/
 !scripts/
+
+!config/quark-common.toml
 
 !/minecraftinstance.json
