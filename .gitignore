@@ -6,6 +6,7 @@
 !mods/
 !profileImage/
 !scripts/
+!defaultconfig/
 
 !config/quark-common.toml
 !config/xaeroworldmap.txt
