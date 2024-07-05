@@ -8,5 +8,6 @@
 !scripts/
 
 !config/quark-common.toml
+!config/xaeroworldmap.txt
 
 !/minecraftinstance.json
