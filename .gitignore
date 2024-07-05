@@ -1,13 +1,10 @@
 /*
 !/.gitignore
+!/temp/
 
-#!config/
-!defaultconfig/
-!mods/
+# This is our NOT ignore list
+
 !profileImage/
-!resourcepacks/
 !scripts/
-!shaderpacks/
 
 !/minecraftinstance.json
-!/temp/
