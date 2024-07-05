@@ -12,5 +12,6 @@
 !config/endermail-common.toml
 !config/quark-common.toml
 !config/xaeroworldmap.txt
+!config/jei/ingredient-list-mod-sort-order.ini
 
 !/minecraftinstance.json
