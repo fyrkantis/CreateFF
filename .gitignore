@@ -6,7 +6,7 @@
 !mods/
 !profileImage/
 !scripts/
-!defaultconfig/
+!defaultconfigs/
 
 !config/alexsmobs.toml
 !config/endermail-common.toml
