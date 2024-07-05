@@ -4,6 +4,7 @@
 
 # This is our NOT ignore list
 
+!mods/
 !profileImage/
 !scripts/
 
