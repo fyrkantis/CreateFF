@@ -20,7 +20,7 @@ craftingTable.addShapeless("dough_shapeless", <item:farmersdelight:wheat_dough>,
 
 //knivar exesterar
 
-recipes.remove(<tag:items:forge:fillet_knife>); 
+//recipes.remove(<tag:items:forge:fillet_knife>); // Don't know what this is supposed to do but I removed it. /David
 
 <tag:items:forge:fillet_knife>.add(<tag:items:farmersdelight:tools/knives>);
 
@@ -65,16 +65,9 @@ craftingTable.addShapeless("shapeless_coocie", <item:minecraft:cookie>, [<item:m
 //m,mmmmmmmmpaj
 
 
-<recipetype:create:mixing>.addRecipe("mmmmpaj1", <constant:create:heat_condition:none>, [<item:farmersrespite:rose_hip_pie>], [<item:farmersrespite:rose_hips> * 2, <item:minecraft:sugar> * 2,<item:farmersdelight:pie_crust> ], [<fluid:minecraft:milk> * 500, <fluid:create:honey> * 250], 200);
+// mmmmpaj1 blev mördad för den var i fel mod
 <recipetype:create:mixing>.addRecipe("mmmpaj2", <constant:create:heat_condition:none>, [<item:farmersdelight:sweet_berry_cheesecake>], [<item:minecraft:sweet_berries> * 4, <item:farmersdelight:pie_crust>], [<fluid:minecraft:milk> * 500], 200);
 
 //pankaka
-recipes.remove(<item:honeyexpansion:pancake>); 
 recipes.remove(<item:supplementaries:pancake>); 
-recipes.remove(<item:honeyexpansion:honey_pancake>); 
 <recipetype:create:compacting>.addRecipe("pankaka", <constant:create:heat_condition:heated>, [<item:supplementaries:pancake>*8], [<item:minecraft:egg>,<item:minecraft:sugar>], [<fluid:minecraft:milk>*250], 300);
-
-recipes.remove(<item:honeyexpansion:honey_pancake>); 
-<recipetype:create:filling>.addRecipe("honung_pankaka", <item:honeyexpansion:honey_pancake>, <item:supplementaries:pancake>, <fluid:create:honey> * 50);
-
-

@@ -30,27 +30,24 @@ blastFurnace.addRecipe("limesten", <item:create:limestone>,<item:minecraft:calci
 
 //rose quarts
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("aaaaaaaaa")
-                                                      .require(<item:biomesoplenty:rose_quartz_block>)
-                                                      .loops(1)
-                                                      .addOutput(<item:create:rose_quartz>, 1)
-                                                      .addOutput(<item:minecraft:redstone>, 1)
-                                                      .addOutput(<item:minecraft:air>, 2)
-
-
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(150))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:redstone>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:redstone>))
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water>*250))
-
-
-                                                      .addStep<mods.createtweaker.PressingRecipe>());
+	.transitionTo(<item:biomesoplenty:rose_quartz_block>)
+	.require(<item:biomesoplenty:rose_quartz_block>)
+	.loops(1)
+	.addOutput(<item:create:rose_quartz>, 1)
+	.addOutput(<item:minecraft:redstone>, 1)
+	.addOutput(<item:minecraft:air>, 2)
+	.addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(150))
+	.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:redstone>))
+	.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:redstone>))
+	.addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water>*250))
+	.addStep<mods.createtweaker.PressingRecipe>());
 
 
 //cart assembly
 recipes.remove(<item:create:cart_assembler>); 
 craftingTable.addShaped("cart_assembly", <item:create:cart_assembler>, [
-    [<item:create:andesite_alloy>, <item:create:precision_mechanism>, <item:create:andesite_alloy>], 
-    [<tag:items:minecraft:logs_that_burn>, <item:minecraft:air>, <tag:items:minecraft:logs_that_burn>]]);
+	[<item:create:andesite_alloy>, <item:create:precision_mechanism>, <item:create:andesite_alloy>], 
+	[<tag:items:minecraft:logs_that_burn>, <item:minecraft:air>, <tag:items:minecraft:logs_that_burn>]]);
 
 
 //netherite
@@ -61,27 +58,27 @@ recipes.remove(<item:minecraft:netherite_scrap>);
 //POWER
 recipes.remove(<item:createaddition:electric_motor>); 
 <recipetype:create:mechanical_crafting>.addMirroredRecipe("motor", <item:createaddition:electric_motor>, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:create:precision_mechanism> ,<item:minecraft:air> ,<item:minecraft:air>], 
-    [<item:minecraft:air>, <item:create:iron_sheet>, <item:createaddition:copper_spool>, <item:create:iron_sheet>, <item:minecraft:air>],
-    [<item:create:iron_sheet>, <item:createaddition:copper_spool>,<item:createaddition:brass_rod> ,<item:createaddition:copper_spool>,  <item:create:iron_sheet>],
-    [<item:minecraft:air>, <item:create:iron_sheet>, <item:createaddition:capacitor>, <item:create:iron_sheet>, <item:minecraft:air>],
-    ]);
+	[<item:minecraft:air>, <item:minecraft:air>, <item:create:precision_mechanism> ,<item:minecraft:air> ,<item:minecraft:air>], 
+	[<item:minecraft:air>, <item:create:iron_sheet>, <item:createaddition:copper_spool>, <item:create:iron_sheet>, <item:minecraft:air>],
+	[<item:create:iron_sheet>, <item:createaddition:copper_spool>,<item:createaddition:brass_rod> ,<item:createaddition:copper_spool>,  <item:create:iron_sheet>],
+	[<item:minecraft:air>, <item:create:iron_sheet>, <item:createaddition:capacitor>, <item:create:iron_sheet>, <item:minecraft:air>],
+	]);
 
 
 recipes.remove(<item:createaddition:alternator>); 
 <recipetype:create:mechanical_crafting>.addMirroredRecipe("generator", <item:createaddition:alternator>, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:create:precision_mechanism> ,<item:minecraft:air> ,<item:minecraft:air>], 
-    [<item:minecraft:air>, <item:create:brass_sheet>, <item:createaddition:copper_spool>, <item:create:brass_sheet>, <item:minecraft:air>],
-    [<item:create:brass_sheet>, <item:createaddition:copper_spool>,<item:createaddition:brass_rod> ,<item:createaddition:copper_spool>,  <item:create:brass_sheet>],
-    [<item:minecraft:air>, <item:create:brass_sheet>, <item:createaddition:capacitor>, <item:create:brass_sheet>, <item:minecraft:air>],
-    ]);
+	[<item:minecraft:air>, <item:minecraft:air>, <item:create:precision_mechanism> ,<item:minecraft:air> ,<item:minecraft:air>], 
+	[<item:minecraft:air>, <item:create:brass_sheet>, <item:createaddition:copper_spool>, <item:create:brass_sheet>, <item:minecraft:air>],
+	[<item:create:brass_sheet>, <item:createaddition:copper_spool>,<item:createaddition:brass_rod> ,<item:createaddition:copper_spool>,  <item:create:brass_sheet>],
+	[<item:minecraft:air>, <item:create:brass_sheet>, <item:createaddition:capacitor>, <item:create:brass_sheet>, <item:minecraft:air>],
+	]);
 
 
 recipes.remove(<item:createaddition:modular_accumulator>); 
 <recipetype:create:mechanical_crafting>.addMirroredRecipe("batari", <item:createaddition:modular_accumulator>, [
-    [<item:minecraft:air>, <item:createaddition:connector>, <item:minecraft:air> ,<item:createaddition:connector> ,<item:minecraft:air>], 
-    [<item:create:brass_sheet>, <item:createaddition:capacitor>, <item:createaddition:gold_spool> ,<item:createaddition:capacitor> ,<item:create:brass_sheet>],
-    [<item:create:brass_sheet>, <item:createaddition:capacitor>, <item:create:precision_mechanism> ,<item:createaddition:capacitor> ,<item:create:brass_sheet>],
-    [<item:create:brass_sheet>, <item:createaddition:capacitor>, <item:createaddition:gold_spool> ,<item:createaddition:capacitor> ,<item:create:brass_sheet>]
-    ]);
+	[<item:minecraft:air>, <item:createaddition:connector>, <item:minecraft:air> ,<item:createaddition:connector> ,<item:minecraft:air>], 
+	[<item:create:brass_sheet>, <item:createaddition:capacitor>, <item:createaddition:gold_spool> ,<item:createaddition:capacitor> ,<item:create:brass_sheet>],
+	[<item:create:brass_sheet>, <item:createaddition:capacitor>, <item:create:precision_mechanism> ,<item:createaddition:capacitor> ,<item:create:brass_sheet>],
+	[<item:create:brass_sheet>, <item:createaddition:capacitor>, <item:createaddition:gold_spool> ,<item:createaddition:capacitor> ,<item:create:brass_sheet>]
+	]);
 

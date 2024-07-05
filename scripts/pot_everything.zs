@@ -13,7 +13,6 @@
 craftingTable.remove(<item:farmersdelight:roasted_mutton_chops>);
 craftingTable.remove(<item:farmersdelight:steak_and_potatoes>);
 craftingTable.remove(<item:farmersdelight:grilled_salmon>);
-craftingTable.remove(<item:farmersrespite:black_cod>);
 <recipetype:farmersdelight:cooking>.remove(<item:farmersdelight:apple_cider>);
 
 
@@ -51,7 +50,7 @@ craftingTable.remove(<item:farmersdelight:roast_chicken_block>);
 <recipetype:create:compacting>.addRecipe("mmmmmmmpumpatallrik", <constant:create:heat_condition:superheated>, [<item:farmersdelight:stuffed_pumpkin_block>], [<item:farmersdelight:brown_mushroom_colony>*5, <item:farmersdelight:cooked_rice>*2, <tag:items:forge:vegetables>*2, <item:farmersdelight:tomato_sauce>*3, <item:minecraft:baked_potato>*3, <item:minecraft:sweet_berries>*2, <item:minecraft:carved_pumpkin>], [<fluid:createaddition:seed_oil> * 250], 300);
 
 craftingTable.remove(<item:farmersdelight:honey_glazed_ham_block>);
-<recipetype:create:compacting>.addRecipe("mmmmmmhonungham", <constant:create:heat_condition:superheated>, [<item:farmersdelight:honey_glazed_ham_block>], [<item:honeyexpansion:honey_berries>*4, <item:farmersdelight:smoked_ham> * 3, <item:farmersdelight:cooked_rice> * 3, <item:farmersdelight:brown_mushroom_colony> * 3, <item:farmersdelight:red_mushroom_colony>], [<fluid:create:honey> * 1000, <fluid:createaddition:seed_oil> * 250], 300);
+<recipetype:create:compacting>.addRecipe("mmmmmmhonungham", <constant:create:heat_condition:superheated>, [<item:farmersdelight:honey_glazed_ham_block>], [<item:minecraft:sweet_berries>*4, <item:farmersdelight:smoked_ham> * 3, <item:farmersdelight:cooked_rice> * 3, <item:farmersdelight:brown_mushroom_colony> * 3, <item:farmersdelight:red_mushroom_colony>], [<fluid:create:honey> * 1000, <fluid:createaddition:seed_oil> * 250], 300);
 
 craftingTable.remove(<item:farmersdelight:shepherds_pie_block>);
 <recipetype:create:mixing>.addRecipe("dumpaj", <constant:create:heat_condition:superheated>, [<item:farmersdelight:shepherds_pie_block>], [<item:farmersdelight:mutton_wrap>, <item:create:wheat_flour> * 2, <item:farmersdelight:tomato_sauce>, <item:minecraft:baked_potato> * 4, <item:farmersdelight:onion> * 3, <item:farmersdelight:cooked_mutton_chops> * 7], [<fluid:minecraft:milk> * 1000], 300);
