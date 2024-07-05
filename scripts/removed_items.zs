@@ -21,7 +21,9 @@ recipes.remove(<item:create_sa:brass_jetpack_chestplate>);
 recipes.remove(<item:create_sa:andesite_jetpack_chestplate>);
 recipes.remove(<item:create_sa:flamethrower>);
 recipes.remove(<item:create_sa:brass_drill_head>);
+recipes.remove(<item:create_sa:portable_drill>);
 recipes.remove(<item:create_sa:grapplin_whisk>);
+recipes.remove(<item:create_sa:fan_component>);
 
 recipes.remove(<item:alexsmobs:animal_dictionary>);
 
