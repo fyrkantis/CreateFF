@@ -1,5 +1,7 @@
 //sten creddit till DrTid igen
 
+// henrik waz here
+
 //färgad sand
 
 <recipetype:create:crushing>.addRecipe("vit_sand", [<item:biomesoplenty:white_sand>], <item:minecraft:calcite>, 150 );
