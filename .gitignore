@@ -3,6 +3,8 @@
 
 # This is our NOT ignore list
 
+!docs/
+
 !mods/
 !profileImage/
 !scripts/
