@@ -29,11 +29,6 @@ craftingTable.addShapeless("dough_shapeless", <item:farmersdelight:wheat_dough>,
 <tag:items:farmersdelight:straw_harvesters>.add(<item:aquaculture:neptunium_fillet_knife>);
 <tag:items:forge:tools>.add(<item:aquaculture:neptunium_fillet_knife>);
 
-craftingTable.addShaped("dirt_bucket_to_diamond", <item:aquaculture:neptunium_fillet_knife>, [
-	[<item:minecraft:air>, <item:aquaculture:neptunium_ingot> ], 
-	[<item:minecraft:stick>, <item:minecraft:air> ]
-]);
-
 //DrTid moment
 
 //tags för sandwitch
