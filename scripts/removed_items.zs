@@ -2,6 +2,16 @@ import crafttweaker.api.GenericRecipesManager;
 
 //jidosc moment
 
+recipes.remove(<item:storagedrawers:obsidian_storage_upgrade>);
+recipes.remove(<item:storagedrawers:iron_storage_upgrade>);
+recipes.remove(<item:storagedrawers:gold_storage_upgrade>);
+recipes.remove(<item:storagedrawers:diamond_storage_upgrade>);
+recipes.remove(<item:storagedrawers:emerald_storage_upgrade>);
+recipes.remove(<item:storagedrawers:one_stack_upgrade>);
+recipes.remove(<item:storagedrawers:void_upgrade>);
+recipes.remove(<item:storagedrawers:controller>);
+recipes.remove(<item:storagedrawers:controller_slave>);
+
 recipes.remove(<item:littlelogistics:chest_car>);
 recipes.remove(<item:littlelogistics:switch_rail>);
 recipes.remove(<item:littlelogistics:fluid_car>);
