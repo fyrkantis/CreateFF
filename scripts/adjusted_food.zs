@@ -6,13 +6,17 @@ craftingTable.addShapeless("credit", <item:minecraft:bedrock>.withTag({RepairCos
 craftingTable.addShapeless("salt1", <item:unusual_delight:salt>, [<item:vintagedelight:salt_dust>]);
 craftingTable.addShapeless("salt2", <item:vintagedelight:salt_dust>, [<item:unusual_delight:salt>]);
 
+// Changed ruby chocolate recipe that uses liquid dragon breath instead of bottles.
+recipes.removeByName("create_confectionery:ruby_chocolate_recipe");
+<recipetype:create:mixing>.addRecipe("ruby_chocolate", <constant:create:heat_condition:heated>, [<fluid:create_confectionery:ruby_chocolate> * 250], [<item:minecraft:sugar>, <item:minecraft:cocoa_beans>], [<fluid:create_central_kitchen:dragon_breath> * 250, <fluid:minecraft:milk> * 250], 200);
+
 //dough compatibility
 //tar bort create dough och använder istället farmers delight dough 
 //använder inte create dough för att cooking pot verkar inte fungera med craft tweeker
 
-recipes.remove(<item:create:dough>); 
+recipes.remove(<item:create:dough>);
 
-recipes.remove(<item:farmersdelight:wheat_dough>); 
+recipes.remove(<item:farmersdelight:wheat_dough>);
 
 craftingTable.addShapeless("slime_lime", <item:minecraft:slime_ball>, [<item:minecraft:lime_dye>, <item:farmersdelight:wheat_dough>]);
 craftingTable.addShapeless("dough_shapeless", <item:farmersdelight:wheat_dough>, [<item:create:wheat_flour>, <item:minecraft:water_bucket>]);
