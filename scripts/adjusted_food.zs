@@ -2,6 +2,9 @@
 craftingTable.addShapeless("credit", <item:minecraft:bedrock>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Recept dåligt ändrade av DrTid\"}" as string}}), [<item:minecraft:barrier>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"hemlig creddit ja\"}" as string}})]);
 //simpla andringar
 
+// Conversion between different types of salt
+craftingTable.addShapeless("salt1", <item:unusual_delight:salt>, [<item:vintagedelight:salt_dust>]);
+craftingTable.addShapeless("salt2", <item:vintagedelight:salt_dust>, [<item:unusual_delight:salt>]);
 
 //dough compatibility
 //tar bort create dough och använder istället farmers delight dough 
