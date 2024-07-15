@@ -11,6 +11,9 @@
 !defaultconfigs/
 !resourcepacks/
 
+!config/fml.toml
+!config/fancymenu/
+!config/drippyloadingscreen/
 !config/alexsmobs.toml
 !config/endermail-common.toml
 !config/quark-common.toml
