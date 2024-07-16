@@ -11,6 +11,8 @@
 !defaultconfigs/
 !resourcepacks/
 
+!options.txt
+
 !config/fml.toml
 !config/fancymenu/
 !config/carryon-common.toml
@@ -23,3 +25,4 @@
 !config/jei/blacklist.cfg
 !config/jei/ingredient-list-mod-sort-order.ini
 !config/jei/recipe-category-sort-order.ini
+/minecraftinstance.json
