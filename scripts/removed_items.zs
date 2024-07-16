@@ -38,5 +38,6 @@ recipes.remove(<item:create_sa:fan_component>);
 recipes.remove(<item:alexsmobs:animal_dictionary>);
 
 // Bad recipe shame corner!
-recipes.removeByName("farmersdelight:cutting/gravel");
+recipes.removeByName("farmersdelight:cutting/gravel"); // Ewwww, wtf? Unlimited flint???
+recipes.removeByName("delightful:integration/quark/cactus_flesh_from_cactus_block"); // We removed this block from quark.
 //<recipetype:create_central_kitchen:cutting_board_deploying>.removeAll();
