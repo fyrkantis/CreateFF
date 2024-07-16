@@ -24,7 +24,7 @@
   "showHotbarEngineGauge": true,
   "weaponsAreDestructive": false,
   "dropInventory": true,
-  "dropUpgrades": false,
+  "dropUpgrades": true,
   "fuelList": {
     "minecraft:blaze_powder": 1200
   },
