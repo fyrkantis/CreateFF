@@ -16,11 +16,10 @@ docs/*.log
 
 !options.txt
 
-!config/fml.toml
-!config/fancymenu/
-!config/carryon-common.toml
+!config/fml.toml!config/fancymenu/
 !config/drippyloadingscreen/
 !config/alexsmobs.toml
+!config/carryon-common.toml
 !config/endermail-common.toml
 !config/quark-common.toml
 !config/supplementaries-common.toml
