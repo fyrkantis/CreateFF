@@ -37,11 +37,5 @@ recipes.remove(<item:create_sa:fan_component>);
 
 recipes.remove(<item:alexsmobs:animal_dictionary>);
 
-recipes.remove(<item:supplementaries:spring_launcher>);
-recipes.remove(<item:supplementaries:turn_table>);
-recipes.remove(<item:supplementaries:cog_block>);
-recipes.remove(<item:supplementaries:pulley_block>);
-
-
 // Bad recipe shame corner!
 //<recipetype:create_central_kitchen:cutting_board_deploying>.removeAll();
