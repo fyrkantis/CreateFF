@@ -38,4 +38,5 @@ recipes.remove(<item:create_sa:fan_component>);
 recipes.remove(<item:alexsmobs:animal_dictionary>);
 
 // Bad recipe shame corner!
+recipes.removeByName("farmersdelight:cutting/gravel");
 //<recipetype:create_central_kitchen:cutting_board_deploying>.removeAll();
