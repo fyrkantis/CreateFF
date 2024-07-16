@@ -6,7 +6,7 @@ for /F "delims=" %%p in (createServerPack/serverPackWhitelist.txt) do (
 )
 echo Finished copying config files.
 echo:
-for /r %%f in (..\mods\*) do (
+for /r "..\mods" %%f in (*) do (
 	set "exclude=0"
 	for /F "delims=" %%p in (createServerPack/clientModsBlacklist.txt) do (
 		if "%%~nf"=="%%p" (
@@ -16,6 +16,7 @@ for /r %%f in (..\mods\*) do (
 	)
 	if !exclude! equ 0 (
 		echo %%~nxf
+		xcopy %%f* Create.FF-X.X.ServerPack\mods\%%~nxf* /i >NUL
 	)
 )
 set "blacklistWarning=0"
