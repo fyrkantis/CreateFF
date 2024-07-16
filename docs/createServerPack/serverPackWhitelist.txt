@@ -1,5 +1,6 @@
 config\jei\
 config\alexsmobs.toml*
+config\carryon-common.toml*
 config\endermail-common.toml*
 config\quark-common.toml*
 config\supplementaries-common.toml*

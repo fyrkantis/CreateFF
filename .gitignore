@@ -13,6 +13,7 @@
 
 !config/fml.toml
 !config/fancymenu/
+!config/carryon-common.toml
 !config/drippyloadingscreen/
 !config/alexsmobs.toml
 !config/endermail-common.toml
