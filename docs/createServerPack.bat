@@ -2,7 +2,7 @@
 title Serverpack Creator
 setlocal enabledelayedexpansion
 for /F "delims=" %%p in (createServerPack/serverPackWhitelist.txt) do (
-	xcopy ..\%%p Create.FF-X.X.ServerPack\%%p /s /e /i /h
+	xcopy "..\%%p" "Create.FF-X.X.ServerPack\%%p" /s /e /i /h
 )
 echo Finished copying config files.
 echo:
@@ -16,7 +16,7 @@ for /r "..\mods" %%f in (*) do (
 	)
 	if !exclude! equ 0 (
 		echo %%~nxf
-		xcopy %%f* Create.FF-X.X.ServerPack\mods\%%~nxf* /i >NUL
+		xcopy "%%f*" "Create.FF-X.X.ServerPack\mods\%%~nxf*" /i >NUL
 	)
 )
 set "blacklistWarning=0"
