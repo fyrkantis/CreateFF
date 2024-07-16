@@ -35,10 +35,11 @@ if !exists! equ 0 (
 echo Finished copying mods.
 echo:
 cd Create.FF-X.X.ServerPack
-echo Installing forge server...
-java -jar ..\createServerPack\forge-1.20.1-47.3.0-installer.jar --installServer
-echo Actually, no you cant^^! /David
-del forge-1.20.1-47.3.0-installer.jar.log
+echo Installing forge server... (this might take a while)
+java -jar ..\createServerPack\forge-1.20.1-47.3.0-installer.jar --installServer >NUL
+echo Done^^!
+move forge-1.20.1-47.3.0-installer.jar.log ..
+echo The forge log file has been moved out of the serverpack directory.
 echo:
 echo Compressing into ZIP folder...
 ..\createServerPack\7-Zip\7z.exe a -tzip ..\Create.FF-X.X.ServerPack.zip .
