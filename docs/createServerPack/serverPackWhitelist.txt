@@ -2,6 +2,7 @@ config\jei\
 config\alexsmobs.toml*
 config\endermail-common.toml*
 config\quark-common.toml*
+config\supplementaries-common.toml*
 config\xaeroworldmap.txt*
 defaultconfigs\
 scripts\
