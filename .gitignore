@@ -4,6 +4,9 @@
 # This is our NOT ignore list
 
 !docs/
+docs/Create.FF-X.X.ServerPack
+docs/*.zip
+docs/*.log
 
 !mods/
 !profileImage/
