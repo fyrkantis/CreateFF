@@ -16,6 +16,7 @@ docs/*.log
 !resourcepacks/
 
 !options.txt
+!servers.dat
 
 !config/fml.toml!config/fancymenu/
 !config/drippyloadingscreen/
