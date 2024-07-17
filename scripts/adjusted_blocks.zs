@@ -26,7 +26,7 @@ recipes.remove(<item:minecraft:soul_sand>);
 blastFurnace.addRecipe("limesten", <item:create:limestone>,<item:minecraft:calcite> , 1.0, 30);
 
 <recipetype:create:mixing>.addRecipe("calcite", <constant:create:heat_condition:heated>, [<item:minecraft:calcite>], [<item:minecraft:diorite>], [<fluid:minecraft:water> * 1000], 200);
-<recipetype:create:compacting>.addRecipe("deepslate", <constant:create:heat_condition:none>, [<item:minecraft:cobbled_deepslate>], [<item:minecraft:andesite>, <item:minecraft:flint>*3], [<fluid:minecraft:lava> * 1000], 400);
+<recipetype:create:compacting>.addRecipe("deepslate", <constant:create:heat_condition:none>, [<item:minecraft:cobbled_deepslate>], [<item:minecraft:flint>*3], [<fluid:minecraft:lava> * 1000], 400);
 
 <recipetype:create:compacting>.addRecipe("tufft_tuff", <constant:create:heat_condition:superheated>, [<item:minecraft:tuff>], [<item:minecraft:dripstone_block>,<item:minecraft:iron_nugget> * 3,<item:minecraft:cobbled_deepslate>,<item:minecraft:calcite>], [<fluid:minecraft:lava> * 1000], 600);
 
@@ -35,9 +35,9 @@ blastFurnace.addRecipe("limesten", <item:create:limestone>,<item:minecraft:calci
 	.transitionTo(<item:biomesoplenty:rose_quartz_block>)
 	.require(<item:biomesoplenty:rose_quartz_block>)
 	.loops(1)
-	.addOutput(<item:create:rose_quartz>, 1)
+	.addOutput(<item:create:rose_quartz>, 2)
 	.addOutput(<item:minecraft:redstone>, 1)
-	.addOutput(<item:minecraft:air>, 2)
+	.addOutput(<item:minecraft:air>, 1)
 	.addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(150))
 	.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:redstone>))
 	.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:redstone>))

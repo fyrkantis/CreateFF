@@ -1,0 +1,12 @@
+defaultconfigs\
+scripts\
+config\alexsmobs.toml*
+config\carryon-common.toml*
+config\endermail-common.toml*
+config\immersive_aircraft.json*
+config\quark-common.toml*
+config\supplementaries-common.toml*
+config\xaeroworldmap.txt*
+config\jei\blacklist.cfg*
+config\jei\ingredient-list-mod-sort-order.ini*
+config\jei\recipe-category-sort-order.ini*

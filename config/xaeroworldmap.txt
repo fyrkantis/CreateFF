@@ -32,7 +32,6 @@ onlyCurrentMapWaypoints:false
 minZoomForLocalWaypoints:0.0
 arrowColour:-2
 minimapRadar:false
-entityRadar:false
 renderWaypoints:true
 partialYTeleportation:true
 displayStainedGlass:true

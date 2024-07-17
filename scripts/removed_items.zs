@@ -2,6 +2,16 @@ import crafttweaker.api.GenericRecipesManager;
 
 //jidosc moment
 
+recipes.remove(<item:storagedrawers:obsidian_storage_upgrade>);
+recipes.remove(<item:storagedrawers:iron_storage_upgrade>);
+recipes.remove(<item:storagedrawers:gold_storage_upgrade>);
+recipes.remove(<item:storagedrawers:diamond_storage_upgrade>);
+recipes.remove(<item:storagedrawers:emerald_storage_upgrade>);
+recipes.remove(<item:storagedrawers:one_stack_upgrade>);
+recipes.remove(<item:storagedrawers:void_upgrade>);
+recipes.remove(<item:storagedrawers:controller>);
+recipes.remove(<item:storagedrawers:controller_slave>);
+
 recipes.remove(<item:littlelogistics:chest_car>);
 recipes.remove(<item:littlelogistics:switch_rail>);
 recipes.remove(<item:littlelogistics:fluid_car>);
@@ -27,7 +37,7 @@ recipes.remove(<item:create_sa:fan_component>);
 
 recipes.remove(<item:alexsmobs:animal_dictionary>);
 
-recipes.remove(<item:supplementaries:spring_launcher>);
-recipes.remove(<item:supplementaries:turn_table>);
-recipes.remove(<item:supplementaries:cog_block>);
-recipes.remove(<item:supplementaries:pulley_block>);
+// Bad recipe shame corner!
+recipes.removeByName("farmersdelight:cutting/gravel"); // Ewwww, wtf? Unlimited flint???
+recipes.removeByName("delightful:integration/quark/cactus_flesh_from_cactus_block"); // We removed this block from quark.
+//<recipetype:create_central_kitchen:cutting_board_deploying>.removeAll();
