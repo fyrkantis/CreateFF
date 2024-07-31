@@ -76,3 +76,8 @@ recipes.remove(<item:some_assembly_required:sliced_onion>);
     <tag:items:farmersdelight:tools/knives>
 );
 
+// adjust taco recipe (add tomato) so it doesn't collide with mutton wrap
+recipes.remove(<item:corn_delight:taco>);
+craftingTable.addShapeless("taco", <item:corn_delight:taco>, [<item:corn_delight:tortilla>, <tag:items:forge:crops/onion>, <item:farmersdelight:tomato>, <tag:items:forge:salad_ingredients>, <tag:items:forge:cooked_beef>]);
+
+
