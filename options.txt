@@ -128,7 +128,7 @@ key_key.immersive_aircraft.fallback_control_pull:key.keyboard.unknown
 key_key.immersive_aircraft.fallback_control_push:key.keyboard.unknown
 key_key.immersive_aircraft.fallback_use:key.keyboard.unknown
 key_key.immersive_aircraft.dismount:key.keyboard.r
-key_key.immersive_aircraft.boost:key.keyboard.b
+key_key.immersive_aircraft.boost:key.keyboard.left.control
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.right.bracket
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
@@ -171,7 +171,7 @@ key_gui.xaero_enlarge_map:key.keyboard.z
 key_gui.xaero_waypoints_key:key.keyboard.u
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
-key_gui.xaero_new_waypoint:key.keyboard.b
+key_gui.xaero_new_waypoint:key.keyboard.unknown
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
 key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
