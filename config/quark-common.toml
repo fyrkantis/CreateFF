@@ -109,7 +109,7 @@
 
 [building]
 	"Celebratory Lamps" = false
-	"Compressed Blocks" = false
+	"Compressed Blocks" = true
 	"Duskbound Blocks" = true
 	"Framed Glass" = false
 	"Glass Item Frame" = true
@@ -158,19 +158,19 @@
 		"Enable Sugar Cane Block" = true
 		"Enable Cactus Block" = true
 		"Enable Chorus Fruit Block" = true
-		"Enable Stick Block" = true
+		"Enable Stick Block" = false
 		"Enable Apple Crate" = true
 		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
 		"Enable Golden Carrot Crate" = true
-		"Enable Beetroot Crate" = true
+		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
-		"Enable Nether Wart Sack" = true
+		"Enable Nether Wart Sack" = false
 		"Enable Gunpowder Sack" = true
 		"Enable Berry Sack" = true
 		"Enable Glow Berry Sack" = true
-		"Enable Blaze Lantern" = true
+		"Enable Blaze Lantern" = false
 		"Enable Bonded Leather" = true
 		"Enable Bonded Rabbit Hide" = true
 
@@ -197,8 +197,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -237,8 +237,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -246,8 +246,8 @@
 	[building.variant_bookshelves]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -266,8 +266,8 @@
 	[building.variant_ladders]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
