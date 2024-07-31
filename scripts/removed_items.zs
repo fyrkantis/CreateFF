@@ -1,4 +1,6 @@
 import crafttweaker.api.GenericRecipesManager;
+import crafttweaker.api.recipe.replacement.Replacer;
+import crafttweaker.api.ingredient.IIngredient;
 
 //jidosc moment
 
@@ -42,8 +44,9 @@ recipes.remove(<item:useless_sword:charged_copper_sword>);
 
 // Bad recipe shame corner!
 recipes.removeByName("farmersdelight:cutting/gravel"); // Ewwww, wtf? Unlimited flint???
-recipes.removeByName("delightful:integration/quark/cactus_flesh_from_cactus_block"); // We removed this block from quark.
 //<recipetype:create_central_kitchen:cutting_board_deploying>.removeAll();
+
+//Replacer.create().replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <tag:items:minecraft:planks>, <tag:items:minecraft:doors>).execute();
 
 // This recipe is redundant, since Terralith added lever recipes.
 recipes.removeByName("minecraft:lever");
