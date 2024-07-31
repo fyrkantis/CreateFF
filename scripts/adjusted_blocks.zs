@@ -84,3 +84,5 @@ recipes.remove(<item:createaddition:modular_accumulator>);
 	[<item:create:brass_sheet>, <item:createaddition:capacitor>, <item:createaddition:gold_spool> ,<item:createaddition:capacitor> ,<item:create:brass_sheet>]
 	]);
 
+// Add furnace recipe to grill coals into ash
+furnace.addRecipe("grilled_coal_to_ash", <item:supplementaries:ash>, <tag:items:minecraft:coals>, 0.1, 200);
