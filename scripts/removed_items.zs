@@ -44,3 +44,6 @@ recipes.remove(<item:useless_sword:charged_copper_sword>);
 recipes.removeByName("farmersdelight:cutting/gravel"); // Ewwww, wtf? Unlimited flint???
 recipes.removeByName("delightful:integration/quark/cactus_flesh_from_cactus_block"); // We removed this block from quark.
 //<recipetype:create_central_kitchen:cutting_board_deploying>.removeAll();
+
+// This recipe is redundant, since Terralith added lever recipes.
+recipes.removeByName("minecraft:lever");
