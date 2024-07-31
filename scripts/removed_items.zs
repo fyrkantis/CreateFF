@@ -37,6 +37,9 @@ recipes.remove(<item:create_sa:fan_component>);
 
 recipes.remove(<item:alexsmobs:animal_dictionary>);
 
+recipes.remove(<item:useless_sword:copper_sword>);
+recipes.remove(<item:useless_sword:charged_copper_sword>);
+
 // Bad recipe shame corner!
 recipes.removeByName("farmersdelight:cutting/gravel"); // Ewwww, wtf? Unlimited flint???
 recipes.removeByName("delightful:integration/quark/cactus_flesh_from_cactus_block"); // We removed this block from quark.
