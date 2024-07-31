@@ -67,3 +67,12 @@ craftingTable.addShapeless("shapeless_coocie", <item:minecraft:cookie>, [<item:m
 //pankaka
 recipes.remove(<item:supplementaries:pancake>); 
 <recipetype:create:compacting>.addRecipe("pankaka", <constant:create:heat_condition:heated>, [<item:supplementaries:pancake>*8], [<item:minecraft:egg>,<item:minecraft:sugar>], [<fluid:minecraft:milk>*250], 300);
+
+// fix onion duplication
+recipes.remove(<item:some_assembly_required:sliced_onion>);
+<recipetype:farmersdelight:cutting>.addRecipe("sliced_onion", 
+    <item:farmersdelight:onion>, 
+    [<item:some_assembly_required:sliced_onion> * 2], 
+    <tag:items:farmersdelight:tools/knives>
+);
+
