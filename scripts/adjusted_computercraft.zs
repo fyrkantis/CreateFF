@@ -1,19 +1,19 @@
 import crafttweaker.api.GenericRecipesManager;
 
 #removes recipe for pocket computers, and add a different
-recipes.remove(<item:computercraft:pocket_computer_normal>);
+recipes.removeByName("computercraft:pocket_computer");
 craftingTable.addShaped("create_pocket_computer", <item:computercraft:pocket_computer_normal>, [
     [<item:create:andesite_casing>, <item:create:andesite_alloy>, <item:create:andesite_casing>], 
     [<item:create:andesite_alloy>, <item:minecraft:golden_apple>, <item:create:andesite_alloy>],
     [<item:create:andesite_casing>, <tag:items:forge:glass_panes>, <item:create:andesite_casing>]]);
 
-#removes recipe for advanced pocket computers, and add a different
-recipes.remove(<item:computercraft:pocket_computer_advanced>);
+recipes.removeByName("computercraft:pocket_computer_advanced");
 craftingTable.addShaped("create_pocket_computer_advanced", <item:computercraft:pocket_computer_advanced>, [
     [<item:create:brass_casing>, <item:create:brass_sheet>, <item:create:brass_casing>], 
     [<item:create:brass_sheet>, <item:minecraft:golden_apple>, <item:create:brass_sheet>],
     [<item:create:brass_casing>, <tag:items:forge:glass_panes>, <item:create:brass_casing>]]);
 
+recipes.removeByName("computercraft:pocket_computer_advanced_upgrade");
 craftingTable.addShaped("upgrade_pocket_computer", <item:computercraft:pocket_computer_advanced>, [
     [<item:create:brass_sheet>, <item:create:brass_sheet>, <item:create:brass_sheet>], 
     [<item:create:brass_sheet>, <item:computercraft:pocket_computer_normal>, <item:create:brass_sheet>],
