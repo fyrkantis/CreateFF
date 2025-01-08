@@ -82,8 +82,6 @@
 - Radium Reforged
   - Fork of Lithium. Server side optimization
 - Repurposed Structures (Neoforge/Forge)
-- Rubidium
-  - Fork of Sodium. Client side optimization.
 - Shulker Tooltip
 - Skin Layers 3D (Fabric/Forge)
 - Some Assembly Required

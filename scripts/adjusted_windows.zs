@@ -20,7 +20,7 @@ for woodType in woodTypes {
 // Add new vertical slab column recipes
 for woodType in woodTypes {
     var recipeName = woodType + "_louvered_shutter";
-    craftingTable.addShaped(recipeName, <item:mcwwindows:${woodType}_louvered_shutter> * 2, [
+    craftingTable.addShaped(recipeName, <item:mcwwindows:${woodType}_louvered_shutter> * 3, [
         [<item:minecraft:air>, <item:quark:${woodType}_vertical_slab>, <item:minecraft:air>],
         [<item:minecraft:air>, <item:quark:${woodType}_vertical_slab>, <item:minecraft:air>],
         [<item:minecraft:air>, <item:quark:${woodType}_vertical_slab>, <item:minecraft:air>]

@@ -1,7 +1,7 @@
 import crafttweaker.api.GenericRecipesManager;
 
 #removes recipe for pocket computers, and add a different
-recipes.removeByName("computercraft:pocket_computer");
+recipes.removeByName("computercraft:pocket_computer_normal");
 craftingTable.addShaped("create_pocket_computer", <item:computercraft:pocket_computer_normal>, [
     [<item:create:andesite_casing>, <item:create:andesite_alloy>, <item:create:andesite_casing>], 
     [<item:create:andesite_alloy>, <item:minecraft:golden_apple>, <item:create:andesite_alloy>],
@@ -112,7 +112,8 @@ craftingTable.addShaped("create_cable", <item:computercraft:cable>*8, [
     [<item:minecraft:air>, <item:create:copper_sheet>, <item:minecraft:air>]]);
 
 #adjusts the recipe for the advanced turtle
-recipes.remove(<item:computercraft:turtle_advanced>);
+recipes.removeByName("computercraft:turtle_advanced");
+recipes.removeByName("computercraft:turtle_advanced_upgrade");
 craftingTable.addShaped("createadvancedturtle", <item:computercraft:turtle_advanced>, [
     [<item:create:brass_sheet>, <item:create:copper_sheet>, <item:create:brass_sheet>],
     [<item:create:copper_sheet>, <item:computercraft:computer_advanced>, <item:create:copper_sheet>],
@@ -124,7 +125,7 @@ craftingTable.addShaped("upgrade_turtle", <item:computercraft:turtle_advanced>, 
     [<item:minecraft:air>, <item:create:brass_sheet>, <item:minecraft:air>]]);
 
 #adjusts the recipe for the turtle
-recipes.remove(<item:computercraft:turtle_normal>);
+recipes.removeByName("computercraft:turtle_normal");
 craftingTable.addShaped("createturtle", <item:computercraft:turtle_normal>, [
     [<item:create:iron_sheet>, <item:create:copper_sheet>, <item:create:iron_sheet>],
     [<item:create:copper_sheet>, <item:computercraft:computer_normal>, <item:create:copper_sheet>],
