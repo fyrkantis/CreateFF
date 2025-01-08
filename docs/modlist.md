@@ -1,0 +1,160 @@
+- AI Improvements
+- Alex's Delight
+- Alex's Mobs
+- AmbientSounds 6
+- AppleSkin
+  - Food HUD improvements
+- Applied Energistics 2
+- Aquaculture 2
+- bad packets
+- BetterF3
+- Biomes O' Plenty
+- Carry On
+- CC: Tweaked
+- Chipped
+- Citadel
+- Cloth Config API (Fabric/Forge/NeoForge)
+- Configured
+  - JEI config
+- Connectivity[Forge/Fabric]
+- Controlling
+- CraftTweaker
+- Crash Utilities
+- Create
+- Create Confectionery
+- Create Crafts & Additions
+- Create Stuff & Additions
+- Create: Crystal Clear
+- CreateTweaker
+- CreativeCore
+- Curios API (Forge/NeoForge)
+  - allows things like slots for head & back
+- DefaultSettings
+- Drippy Loading Screen
+- Elytra Slot (Fabric/Forge/Quilt)
+  - Allows elytra to be in backpack slot
+- Embeddium/Rubidium Dynamic Lights
+  - When walking around with torch, it lights up client-side around you.
+- Ender Mail
+- Entity Culling Fabric/Forge
+- Etched
+  - make your own records!
+- Every Compat (Wood Good)
+  - for example oak door can look like any other kind of door.
+- FancyMenu
+  - A UI builder to customer menus and screens and such
+- Farmer's Delight
+- FastFurnace
+  - furnace performance
+- FastWorkbench
+- FerriteCore ((Neo)Forge)
+- FPS Reducer
+  - For AFK
+- GraveStone Mod
+- Incapacitated
+- Integrated Dungeons and Structures
+- Just Enough Effect Descriptions (JEED)
+- Just Enough Items (JEI)
+- Just Enough Professions (JEP)
+- Just Enough Resources (JER)
+- Konkrete [Forge/NeoForge]
+- Let Sleeping Dogs Lie (Forge)
+- Little Contraptions
+- Little Logistics
+- Macaw's Doors
+- Macaw's Fences - Biomes O' Plenty
+- Macaw's Fences and Walls
+- Macaw's Furniture
+- Macaw's Lights and Lamps
+- Macaw's Paintings
+- Macaw's Trapdoors
+- Macaw's Windows
+- Moonlight Lib
+  - needed by supplementaries. This mod adds CraftTweaker support for Just Enough Items, such as the ability to hide items, hide categories and add JEI descriptions items.
+- Nether's Delight
+  - Stuffed Hoglin!
+- Not Enough Animations
+  - This mod brings a lot of missing third-person animations from the first-person or modifies them to be better representative to how they should look like or look like in the first-person.
+- Not Enough Crashes (Forge)
+  - improves crashes in Minecraft. Ex: When crashing, you can go back to the title screen and keep playing, without needing to restart.
+- Quark
+  - Some shit and vertical slabs
+- Radium Reforged
+  - Fork of Lithium. Server side optimization
+- Repurposed Structures (Neoforge/Forge)
+- Rubidium
+  - Fork of Sodium. Client side optimization.
+- Shulker Tooltip
+- Skin Layers 3D (Fabric/Forge)
+- Some Assembly Required
+- Sophisticated Backpacks
+- Sophisticated Core
+- Sound Physics Remastered
+- spark
+  - performance diagnostics
+- Storage Drawers
+  - Overpowered. Remove upgrades.
+- Supplementaries
+- TerraBlender (Forge)
+  - Biomes o Plenty dependency
+- Terralith
+- Useless Sword
+- WTHIT Forge Edition
+- Xaero's Minimap (Fair-play Edition)
+- Xaero's World Map
+- YUNG's API (Forge)
+- YUNG's Better Desert Temples (Forge)
+- YUNG's Better Dungeons (Forge)
+- YUNG's Better Mineshafts (Forge)
+- YUNG's Better Strongholds (Forge)
+- YUNG's Extras (Forge)
+- Aquaculture Delight
+  - Expansion på farmer's delight för havet
+- Athena
+  - needed by some mod. Something about connected textures.
+- Create Central Kitchen
+  - tools and methods to automate food processing for other mods in Create. Example: "Blaze Stove: Give your Blaze a guide and turn it into a master chef! Blaze Stove will provide Mechanical Arm support for kitchenwares"
+- Create Enchantment Industry
+  - tools and methods to handle experience & enchantment in Create. (ex: blaze enchanter for automated enchanting)
+- Create Interiors
+  - more seats more contraptions
+- Create Steam 'n' Rails
+  - things like coupling blocks, conductor (little dude), different types of tracks, etc.
+- Delightful
+  - more types of food, knives, more types of cabinets, etc.
+- End's Delight
+  - End food! Roasted Dragon Steak!!!!!
+- iChunUtil
+  - Dependency for Let Sleeping Dogs Lie
+- Kotlin for Forge
+  - some mod needed it
+- Ocean's Delight
+  - Tentacle on a stick. squid rings. Stuffed cod.
+- Resourceful Lib
+  - some mod needed it
+- Create Slice & Dice
+  - Sprinklers. Better create-automation of cooking stuff.
+- Quark Delight
+  - More foods and stuff
+- Zeta
+- Placeable blaze rods
+- Delightful Sandwiches
+  - what it sounds like
+- MC style paintings
+  - New paintings in minecraft based in classic and famous paintings
+- Corn Delight
+  - Adds corn stuff, which is nice because we can't have Cultural Delights anymore, and that one had corn stuff.
+- Chat Heads
+  - Shows player's head in the chat
+- Advancement Frames
+  - You can show off your advancements on the wall!
+- Smarter Farmers
+  - for example they plant non-vanilla crops also
+- Unusual Delight
+  - more foods and some new stuff. Skulk foods! Glow apple.
+- Vintage Delight
+  - cucumber
+- Amendments
+  - needed for things like wall lanterns and hanging signs that swing when you walk into it. Used to be included in supplementaries.
+- Cupboard
+  - dependency for connectivity
