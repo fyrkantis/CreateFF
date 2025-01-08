@@ -29,8 +29,6 @@ recipes.remove(<item:littlelogistics:junction_rail>);
 recipes.remove(<item:littlelogistics:car_dock_rail>);
 recipes.remove(<item:littlelogistics:locomotive_dock_rail>);
 
-recipes.remove(<item:create_sa:brass_jetpack_chestplate>);
-recipes.remove(<item:create_sa:andesite_jetpack_chestplate>);
 recipes.remove(<item:create_sa:flamethrower>);
 recipes.remove(<item:create_sa:brass_drill_head>);
 recipes.remove(<item:create_sa:portable_drill>);
