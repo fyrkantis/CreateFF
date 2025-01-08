@@ -2,7 +2,7 @@
 title Serverpack Creator
 setlocal enabledelayedexpansion
 for /F "delims=" %%p in (createServerPack/serverPackWhitelist.txt) do (
-	xcopy "..\%%p" "Create.FF-X.X.ServerPack\%%p" /s /e /i /h
+	xcopy "..\%%p" "CreateFF-X.X-ServerPack\%%p" /s /e /i /h
 )
 echo Finished copying config files.
 echo:
@@ -16,7 +16,7 @@ for /r "..\mods" %%f in (*) do (
 	)
 	if !exclude! equ 0 (
 		echo %%~nxf
-		xcopy "%%f*" "Create.FF-X.X.ServerPack\mods\%%~nxf*" /i >NUL
+		xcopy "%%f*" "CreateFF-X.X-ServerPack\mods\%%~nxf*" /i >NUL
 	)
 )
 set "blacklistWarning=0"
@@ -35,7 +35,7 @@ if !exists! equ 0 (
 )
 echo Finished copying mods.
 echo:
-cd Create.FF-X.X.ServerPack
+cd CreateFF-X.X-ServerPack
 echo Installing forge server... (this might take a while)
 java -jar ..\createServerPack\forge-1.20.1-47.3.0-installer.jar --installServer >NUL
 echo Done^^!
@@ -43,7 +43,7 @@ move forge-1.20.1-47.3.0-installer.jar.log ..
 echo The forge log file has been moved out of the serverpack directory.
 echo:
 echo Compressing into ZIP folder...
-..\createServerPack\7-Zip\7z.exe a -tzip ..\Create.FF-X.X.ServerPack.zip .
+..\createServerPack\7-Zip\7z.exe a -tzip ..\CreateFF-X.X-ServerPack.zip .
 echo Done^^!
 echo:
 echo Enjoy your serverpack while it's hot^^!
