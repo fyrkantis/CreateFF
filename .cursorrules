@@ -1,0 +1,6 @@
+This is a curseforge modpack.
+Notable folders:
+- scripts = recipe changes
+- config = configs for each different mod
+- mods = jar files for each mod
+- docs/modlist.md = list of the names of each included mod and a short description of what it does
