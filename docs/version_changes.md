@@ -91,3 +91,50 @@
 - YungsApi: 4.0.5 → 4.0.6
 - Zeta: 19 → 24
 
+### Formatted
+
+- [Alex's Mobs](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs): 1.22.8 → 1.22.9
+- [AmbientSounds 6](https://www.curseforge.com/minecraft/mc-mods/ambientsounds): v6.0.2 → v6.1.4
+- [Amendments](https://www.curseforge.com/minecraft/mc-mods/amendments): 1.2.8 → 1.2.14
+- [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2): 15.2.4 → 15.2.16
+- [Aquaculture 2](https://www.curseforge.com/minecraft/mc-mods/aquaculture): 2.5.1 → 2.5.3
+- [ComputerCraft (CC: Tweaked)](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked): 1.111.0 → 1.113.1
+- [Chat Heads](https://www.curseforge.com/minecraft/mc-mods/chat-heads): 0.12.6 → 0.13.7
+- [Chipped](https://www.curseforge.com/minecraft/mc-mods/chipped): 3.0.6 → 3.0.7
+- [Corn Delight](https://www.curseforge.com/minecraft/mc-mods/corn-delight): 1.0.4 → 1.1.6
+- [Create](https://www.curseforge.com/minecraft/mc-mods/create): 0.5.1.f → 0.5.1.j
+- [Create Stuff & Additions](https://www.curseforge.com/minecraft/mc-mods/create-stuff-additions): 2.0.4a → 2.0.6
+- [Create Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition): 1.2.4c → 1.2.4e
+- [Delightful](https://www.curseforge.com/minecraft/mc-mods/delightful): 3.5.6 → 3.6.1
+- [Elytra Slot](https://www.curseforge.com/minecraft/mc-mods/elytra-slot): 6.4.0 → 6.4.4
+- [Etched](https://www.curseforge.com/minecraft/mc-mods/etched): 3.0.2 → 3.0.4
+- [Every Compat (Wood Good)](https://www.curseforge.com/minecraft/mc-mods/every-compat): 2.6.65 → 2.7.10
+- [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight): 1.2.4 → 1.2.6
+- [GraveStone Mod](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod): 1.0.15 → 1.0.24
+- [Integrated Dungeons and Structures](https://www.curseforge.com/minecraft/mc-mods/idas): 1.9.3 → 1.10.3
+- [Immersive Aircraft](https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft): 1.0.1 → 1.1.8
+- [Create: Interiors](https://www.curseforge.com/minecraft/mc-mods/interiors): 0.5.3 → 0.5.6
+- [Just Enough Effect Descriptions (JEED)](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed): 2.2.1 → 2.2.2
+- [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei): 15.3.0.8 → 15.20.0.105
+- [Macaw's Furniture](https://www.curseforge.com/minecraft/mc-mods/macaws-furniture): 3.2.2 → 3.3.0
+- [Macaw's Trapdoors](https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors): 1.1.3 → 1.1.4
+- [Macaw's Windows](https://www.curseforge.com/minecraft/mc-mods/macaws-windows): 2.2.1 → 2.3.0
+- [Macaw's Fences - Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/macaws-fences-biomes-o-plenty): 1.1 → 1.2
+- [Not Enough Animations](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations): 1.7.4 → 1.9.0
+- [Placeable Blaze Rods](https://www.curseforge.com/minecraft/mc-mods/placeable-blaze-rods): 3.5 → 3.6
+- [Quark](https://www.curseforge.com/minecraft/mc-mods/quark): 458 → 460
+- [Skin Layers 3D](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d): 1.6.6 → 1.7.4
+- [Create Slice & Dice](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice): 3.2.0 → 3.3.0
+- [Smarter Farmers (farmers replant)](https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant): 1.8.3 → 2.1.0
+- [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks): 3.20.5.1044 → 3.21.2.1163
+- [Sound Physics Remastered](https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered): 1.4.2 → 1.4.8
+- [Create: Steam 'n' Rails](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails): 1.6.4 → 1.6.7
+- [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers): 12.0.3 → 12.9.13
+- [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries): 2.8.17 → 3.1.11
+- [Terralith](https://www.curseforge.com/minecraft/mc-mods/terralith): 2.5.1 → 2.5.4
+- [Unusual Delight (Hostile Delight)](https://www.curseforge.com/minecraft/mc-mods/unusual-delight): 2.5 → 4.0
+- [Useless Sword](https://www.curseforge.com/minecraft/mc-mods/useless-sword): V1.4.1 → V1.4.2
+- [Vintage Delight](https://www.curseforge.com/minecraft/mc-mods/vintage-delight): 0.0.12 → 0.1.6
+- [WTHIT Forge Edition](https://www.curseforge.com/minecraft/mc-mods/wthit-forge): 8.13.2 → 8.15.5
+- [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map): 1.38.8 → 1.39.2
+- [Xaero's Minimap (Fair-play Edition)](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-fair-play-edition): FP24.1.1 → FP24.2.0
