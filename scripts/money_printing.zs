@@ -1,9 +1,9 @@
-recipes.remove(<item:simple_coins:dollarbill>);
+recipes.remove(<item:city_modernities:dollarbill>);
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("dollar_printing")
 	.transitionTo(<item:minecraft:paper>)
 	.require(<item:minecraft:paper>)
 	.loops(1)
-	.addOutput(<item:simple_coins:dollarbill> * 4, 1)
+	.addOutput(<item:city_modernities:dollarbill> * 4, 1)
 	.addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:lime_dye>))
 	.addStep<mods.createtweaker.PressingRecipe>()
 	.addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
@@ -12,15 +12,15 @@ recipes.remove(<item:simple_coins:dollarbill>);
 	.addStep<mods.createtweaker.PressingRecipe>()
 );
 
-recipes.remove(<item:simple_coins:dollarstack>);
-recipes.remove(<item:simple_coins:dollarbag>);
-recipes.remove(<item:simple_coins:dollarblock>);
+recipes.remove(<item:city_modernities:dollarsstack>);
+recipes.remove(<item:city_modernities:dollarsbag>);
+recipes.remove(<item:city_modernities:dollarblock>);
 
-<recipetype:create:compacting>.addRecipe("dollar_stacking", <constant:create:heat_condition:none>, [<item:simple_coins:dollarstack>], [<item:simple_coins:dollarbill> * 10], [], 100);
-<recipetype:create:mixing>.addRecipe("dollar_destacking", <constant:create:heat_condition:none>, [<item:simple_coins:dollarbill> * 10], [<item:simple_coins:dollarstack>], [], 100);
+<recipetype:create:compacting>.addRecipe("dollar_stacking", <constant:create:heat_condition:none>, [<item:city_modernities:dollarsstack>], [<item:city_modernities:dollarbill> * 10], [], 100);
+<recipetype:create:mixing>.addRecipe("dollar_destacking", <constant:create:heat_condition:none>, [<item:city_modernities:dollarbill> * 10], [<item:city_modernities:dollarsstack>], [], 100);
 
-<recipetype:create:compacting>.addRecipe("dollar_bagging", <constant:create:heat_condition:none>, [<item:simple_coins:dollarbag>], [<item:simple_coins:dollarstack> * 10], [], 100);
-<recipetype:create:mixing>.addRecipe("dollar_debagging", <constant:create:heat_condition:none>, [<item:simple_coins:dollarstack> * 10], [<item:simple_coins:dollarbag>], [], 100);
+<recipetype:create:compacting>.addRecipe("dollar_bagging", <constant:create:heat_condition:none>, [<item:city_modernities:dollarsbag>], [<item:city_modernities:dollarsstack> * 10], [], 100);
+<recipetype:create:mixing>.addRecipe("dollar_debagging", <constant:create:heat_condition:none>, [<item:city_modernities:dollarsstack> * 10], [<item:city_modernities:dollarsbag>], [], 100);
 
-<recipetype:create:compacting>.addRecipe("dollar_blocking", <constant:create:heat_condition:none>, [<item:simple_coins:dollarblock>], [<item:simple_coins:dollarbag> * 10], [], 100);
-<recipetype:create:mixing>.addRecipe("dollar_deblocking", <constant:create:heat_condition:none>, [<item:simple_coins:dollarbag> * 10], [<item:simple_coins:dollarblock>], [], 100);
+<recipetype:create:compacting>.addRecipe("dollar_blocking", <constant:create:heat_condition:none>, [<item:city_modernities:dollarblock>], [<item:city_modernities:dollarsbag> * 10], [], 100);
+<recipetype:create:mixing>.addRecipe("dollar_deblocking", <constant:create:heat_condition:none>, [<item:city_modernities:dollarsbag> * 10], [<item:city_modernities:dollarblock>], [], 100);
