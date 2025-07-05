@@ -8,12 +8,15 @@ This modpack is heavily inspired by [Create 90gQ](https://www.curseforge.com/min
 
 ### Techincal
 - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
-	- [Create: Crystal Clear](https://www.curseforge.com/minecraft/mc-mods/create-crystal-clear)
 	- [Create Confectionery](https://www.curseforge.com/minecraft/mc-mods/create-confectionery)
 	- [Create Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition)
+	- [Create: Power Loader](https://www.curseforge.com/minecraft/mc-mods/create-power-loader)
 	- [Create: Interiors](https://www.curseforge.com/minecraft/mc-mods/interiors)
 	- [Create Stuff & Additions](https://www.curseforge.com/minecraft/mc-mods/create-stuff-additions)
 	- [Create: Steam 'n' Rails](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails)
+	- [Create Railways Navigator](https://www.curseforge.com/minecraft/mc-mods/create-railways-navigator)
+	- [Create: Escalated](https://www.curseforge.com/minecraft/mc-mods/create-pattern-schematics)
+	- [Create: Pattern Schematics](https://www.curseforge.com/minecraft/mc-mods/create-pattern-schematics)
 	- [Create Enchantment Industry](https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry)
 	- [Create Slice & Dice](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice)
 	- [Create Central Kitchen](https://www.curseforge.com/minecraft/mc-mods/create-central-kitchen)
@@ -23,7 +26,6 @@ This modpack is heavily inspired by [Create 90gQ](https://www.curseforge.com/min
 	- [Create Immersive Aircrafts](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack)
 - [Little Logistics](https://www.curseforge.com/minecraft/mc-mods/little-logistics)
 	- [Little Contraptions](https://www.curseforge.com/minecraft/mc-mods/little-contraptions)
-- [Chunk Loaders](https://www.curseforge.com/minecraft/mc-mods/chunk-loaders)
 - [Ender Mail](https://www.curseforge.com/minecraft/mc-mods/ender-mail)
 
 ### Food & Animals
