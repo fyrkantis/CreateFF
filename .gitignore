@@ -26,6 +26,7 @@ docs/*.log
 !config/immersive_aircraft.json
 !config/incapacitated-common.toml
 !config/quark-common.toml
+!config/sodiumdynamiclights-client.toml
 !config/supplementaries-common.toml
 !config/waila/waila_plugins.json5
 !config/xaeroworldmap.txt
