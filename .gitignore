@@ -18,7 +18,8 @@ docs/*.log
 
 !options.txt
 
-!config/fml.toml!config/fancymenu/
+!config/fml.toml
+!config/fancymenu/
 !config/drippyloadingscreen/
 !config/alexsmobs.toml
 !config/carryon-common.toml
