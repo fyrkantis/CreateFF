@@ -1105,6 +1105,16 @@ craftingTable.addShapeless(
 
 
 craftingTable.addShapeless(
+	"marylins", 
+	<item:minecraft:painting>.withTag({EntityTag: {"variant": "minecraft_style_paintings:marylins"}}),
+	[
+		<item:minecraft:oak_trapdoor>.reuse(), 
+		<item:minecraft:painting>
+	]
+);
+
+
+craftingTable.addShapeless(
 	"halloween_house", 
 	<item:minecraft:painting>.withTag({EntityTag: {"variant": "mcwpaintings:halloween_house"}}),
 	[
