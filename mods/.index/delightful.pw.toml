@@ -1,0 +1,25 @@
+filename = 'Delightful-1.20.1-3.7.6.jar'
+name = 'Delightful'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Delightful 3.7.6 - 1.20.1'
+
+[download]
+hash = 'e474f9de02552d2361f15e1422316950b1172bf8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6988183
+project-id = 637529
+
+[[x-prismlauncher-dependencies]]
+addonId = '807101'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'

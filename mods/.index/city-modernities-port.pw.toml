@@ -1,0 +1,18 @@
+filename = 'city_modernities-0.3-forge-1.20.1.jar'
+name = 'City Modernities Renewed - A Money Mod'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'city_modernities-0.3-forge-1.20.1.jar'
+
+[download]
+hash = 'eeb54adf31433202fb197ad85f6c0cb3e3987c85'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6347640
+project-id = 1008045

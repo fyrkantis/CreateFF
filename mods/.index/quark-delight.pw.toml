@@ -1,0 +1,25 @@
+filename = 'quark_delight_1.0.0_forge_1.20.1.jar'
+name = 'Quark Delight'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'quark_delight_1.0.0_forge_1.20.1.jar'
+
+[download]
+hash = '06e0c415a201f80969fdf8ff0eb1f07c8c7a5751'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5052580
+project-id = 963245
+
+[[x-prismlauncher-dependencies]]
+addonId = '243121'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'

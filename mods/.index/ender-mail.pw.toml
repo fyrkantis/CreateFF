@@ -1,0 +1,18 @@
+filename = 'EnderMail-1.20.1-1.2.9.jar'
+name = 'Ender Mail'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EnderMail-1.20.1-1.2.9.jar'
+
+[download]
+hash = '2fcca821cfba4c93219b82506bee89bd20eb30bf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4606473
+project-id = 374771

@@ -1,0 +1,25 @@
+filename = 'CreateTweaker-forge-1.20.1-4.0.15.jar'
+name = 'CreateTweaker'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CreateTweaker-forge-1.20.1-4.0.15.jar'
+
+[download]
+hash = 'b5b2812181efe228719a668f6d81546ce0c9ba25'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6148016
+project-id = 437717
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

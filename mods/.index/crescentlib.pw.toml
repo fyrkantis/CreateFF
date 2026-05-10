@@ -1,0 +1,21 @@
+filename = 'crescentlib-1.0.0.jar'
+name = 'CrescentLib'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'crescentlib-1.0.0.jar'
+
+[download]
+hash = 'fc3774985002b5f603ab8267748edd0d8bd3936c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5937973
+project-id = 1147883
+
+[[x-prismlauncher-dependencies]]
+addonId = '896557'
+type = 'EMBEDDED'

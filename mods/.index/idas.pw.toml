@@ -1,0 +1,85 @@
+filename = 'idas_forge-1.12.1+1.20.1.jar'
+name = 'Integrated Dungeons and Structures'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'idas_forge-1.12.1+1.20.1.jar'
+
+[download]
+hash = '7faf6db8ee20db124a4aeb13d96c89f38007161a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7046799
+project-id = 605375
+
+[[x-prismlauncher-dependencies]]
+addonId = '247560'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '312353'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '428883'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '531761'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '360203'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '499980'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '426558'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243121'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '220318'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '817709'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '412082'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '245755'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '264231'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '659110'
+type = 'OPTIONAL'

@@ -1,0 +1,21 @@
+filename = 'advancementframes-1.20-2.2.8.jar'
+name = 'Advancement Frames'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'advancementframes-1.20-2.2.8.jar'
+
+[download]
+hash = '642c87d5ca081aa30204c81b510eb360b66cea5b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6273145
+project-id = 556795
+
+[[x-prismlauncher-dependencies]]
+addonId = '499980'
+type = 'REQUIRED'

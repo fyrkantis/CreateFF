@@ -1,0 +1,21 @@
+filename = 'delightfulsandwich-1.20.1.jar'
+name = 'Delightful Sandwiches'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DelightfulSandwiches-1.20.1'
+
+[download]
+hash = 'ebd56e042a32bf9adaa696b2f548b0171d8672ff'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5332597
+project-id = 1007358
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'

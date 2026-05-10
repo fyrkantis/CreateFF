@@ -1,0 +1,18 @@
+filename = 'notenoughanimations-forge-1.11.1-mc1.20.1.jar'
+name = 'Not Enough Animations'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.11.1'
+
+[download]
+hash = '9335ace46a9f6477df026f19cab08c656fc7c0a7f1069eedfdadbba01bfd2ad43f9e90a0bb5ef8e867d51608dddcf85fa9653eb178f4a0e6e6bcfb45d0959270'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MPCX6s5C/versions/cfiRPrQF/notenoughanimations-forge-1.11.1-mc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'MPCX6s5C'
+version = 'cfiRPrQF'

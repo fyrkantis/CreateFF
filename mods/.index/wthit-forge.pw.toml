@@ -1,0 +1,29 @@
+filename = 'wthit-1.20.1-forge-8.19.3.jar'
+name = 'WTHIT Forge Edition'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge, NeoForge 1.20.1] 8.19.3'
+
+[download]
+hash = '2208567dea6c0951715d6c5bca16dcc9c6770da6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7290864
+project-id = 455982
+
+[[x-prismlauncher-dependencies]]
+addonId = '615134'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '521393'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'

@@ -1,0 +1,25 @@
+filename = 'Xaeros_Minimap_FP24.2.0_Forge_1.20.jar'
+name = "Xaero's Minimap (Fair-play Edition)"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FP24.2.0 for Forge 1.20(.1)'
+
+[download]
+hash = 'f1ff67cf781da9769a1e0260f8925e6889b751b7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5548212
+project-id = 263466
+
+[[x-prismlauncher-dependencies]]
+addonId = '636608'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '317780'
+type = 'OPTIONAL'
