@@ -1,3 +1,0 @@
-version:3465
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","delightful:overhauls","create_central_kitchen:create_styled","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/Adjusted_Textures.zip"]
-incompatibleResourcePacks:["create_central_kitchen:create_styled"]
