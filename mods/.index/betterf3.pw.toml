@@ -1,19 +1,19 @@
-filename = 'BetterF3-7.0.2-Forge-1.20.1.jar'
+filename = 'BetterF3-11.0.3-NeoForge-1.21.1.jar'
 name = 'BetterF3'
 side = ''
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'BetterF3 Forge v7.0.2 (1.20/1.20.1)'
+x-prismlauncher-version-number = 'BetterF3 NeoForge v11.0.3 (1.21.1)'
 
 [download]
-hash = 'b65cba59e87dc6c6d1aa9c47f09b9996b4e5075d'
+hash = '8fa17df26d3650416bc124be7a264bc1566a3b26'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4863626
+file-id = 5873258
 project-id = 401648
 
 [[x-prismlauncher-dependencies]]

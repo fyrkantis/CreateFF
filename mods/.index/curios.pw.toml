@@ -1,18 +1,18 @@
-filename = 'curios-forge-5.14.1+1.20.1.jar'
-name = 'Curios API (Forge/NeoForge)'
+filename = 'curios-neoforge-9.5.1+1.21.1.jar'
+name = 'Curios API'
 side = ''
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'curios-forge-5.14.1+1.20.1.jar'
+x-prismlauncher-version-number = 'curios-neoforge-9.5.1+1.21.1.jar'
 
 [download]
-hash = '452175b95ad3db6ff58bb8968f6bf7a9d1e0f480'
+hash = '418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6418456
+file-id = 6529130
 project-id = 309927

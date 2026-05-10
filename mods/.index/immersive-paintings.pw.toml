@@ -1,18 +1,25 @@
-filename = 'immersive_paintings-0.6.8+1.20.1-forge.jar'
-name = 'Immersive Paintings [Fabric/Forge]'
+filename = 'immersive_paintings-neoforge-1.21.1-0.7.6.jar'
+name = 'Immersive Paintings'
 side = ''
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[Forge 1.20.1] Immersive Paintings - 0.6.8'
+x-prismlauncher-version-number = '[NeoForge 1.21.1] Immersive Paintings - 0.7.6'
 
 [download]
-hash = 'f3a464ae2cb3173c7a7b765b4b9e61591f71833c'
+hash = '0f2acb69a6a7a8694de296ac5785dc13e814e413'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6672642
+file-id = 7583940
 project-id = 639584
+
+[[x-prismlauncher-dependencies]]
+addonId = '1005914'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '308702'
+type = 'OPTIONAL'

@@ -1,18 +1,18 @@
-filename = 'Searchables-forge-1.20.1-1.0.3.jar'
+filename = 'Searchables-neoforge-1.21.1-1.0.2.jar'
 name = 'Searchables'
 side = ''
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Searchables-forge-1.20.1-1.0.3.jar'
+x-prismlauncher-version-number = 'Searchables-neoforge-1.21.1-1.0.2.jar'
 
 [download]
-hash = 'ed5a23ec30c90fd06b3f1d8140614028e1fafaee'
+hash = '5b8a0b43a474c066371b2e16f9bfb88622552a74'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5284015
+file-id = 5831692
 project-id = 858542

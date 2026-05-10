@@ -1,19 +1,19 @@
-filename = 'placeableblazerods-1.20.1-3.9.jar'
+filename = 'placeableblazerods-1.21.1-3.9.jar'
 name = 'Placeable Blaze Rods'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.20.1-3.9 | Placeable Blaze Rods'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.21.1-3.9 | Placeable Blaze Rods'
 
 [download]
-hash = 'e2c7c691182fddeb7d9f8bc78e9c7415cda71a1b'
+hash = 'a6f88f1db423d370a12bf53584d388d59cd50f75'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6185402
+file-id = 6185403
 project-id = 390121
 
 [[x-prismlauncher-dependencies]]

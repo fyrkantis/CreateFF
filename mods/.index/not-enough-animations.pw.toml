@@ -1,18 +1,18 @@
-filename = 'notenoughanimations-forge-1.11.1-mc1.20.1.jar'
-name = 'Not Enough Animations'
-side = 'client'
+filename = 'notenoughanimations-neoforge-1.12.3-mc1.21.1.jar'
+name = 'NotEnoughAnimations'
+side = ''
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.11.1'
+x-prismlauncher-version-number = '1.12.3'
 
 [download]
-hash = '9335ace46a9f6477df026f19cab08c656fc7c0a7f1069eedfdadbba01bfd2ad43f9e90a0bb5ef8e867d51608dddcf85fa9653eb178f4a0e6e6bcfb45d0959270'
+hash = 'b57f21a4b24917b15dbcb90d95c077fe5fe9167aadc4cc86eb2de6cb2cea605378b8221788975df5498a001278c990ace1e9f75e51c423035ca9f20652b957cd'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/MPCX6s5C/versions/cfiRPrQF/notenoughanimations-forge-1.11.1-mc1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/MPCX6s5C/versions/ZNs9eukY/notenoughanimations-neoforge-1.12.3-mc1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'MPCX6s5C'
-version = 'cfiRPrQF'
+version = 'ZNs9eukY'

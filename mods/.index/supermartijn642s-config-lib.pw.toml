@@ -1,18 +1,18 @@
-filename = 'supermartijn642configlib-1.1.8-forge-mc1.20.jar'
-name = "SuperMartijn642's Config Lib"
+filename = 'supermartijn642configlib-1.1.8-neoforge-mc1.21.jar'
+name = "SuperMartijn642's Config Library"
 side = ''
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = "SuperMartijn642's Config Library 1.1.8 for Forge 1.20"
+x-prismlauncher-version-number = "SuperMartijn642's Config Library 1.1.8 for NeoForge 1.21"
 
 [download]
-hash = 'f80f9eed728966adcfbcc848633e789645057281'
+hash = '07452242e389975e8a88b97066f4bae6a4ebe574'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4715408
+file-id = 5546996
 project-id = 438332

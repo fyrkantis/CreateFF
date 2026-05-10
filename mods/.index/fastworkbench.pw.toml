@@ -1,19 +1,19 @@
-filename = 'FastWorkbench-1.20.1-8.0.4.jar'
-name = 'FastWorkbench'
+filename = 'FastWorkbench-1.21.1-9.1.3.jar'
+name = 'Fast Workbench'
 side = ''
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'FastWorkbench-1.20.1-8.0.4.jar'
+x-prismlauncher-version-number = 'FastWorkbench-1.21.1-9.1.3.jar'
 
 [download]
-hash = '1a322a85e7c7024b8a0715c12d27b5ed0930d729'
+hash = '7343b63ded70c0546811c768118d16d3a86418ee'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5101229
+file-id = 6751534
 project-id = 288885
 
 [[x-prismlauncher-dependencies]]

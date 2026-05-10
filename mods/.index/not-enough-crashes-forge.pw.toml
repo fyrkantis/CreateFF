@@ -1,18 +1,18 @@
-filename = 'notenoughcrashes-4.4.9+1.20.1-forge.jar'
-name = 'Not Enough Crashes (Forge)'
+filename = 'notenoughcrashes-neoforge-4.4.9+1.21.1.jar'
+name = 'Not Enough Crashes'
 side = ''
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Not Enough Crashes 4.4.9+1.20.1 Forge'
+x-prismlauncher-version-number = 'Not Enough Crashes 4.4.9+1.21.1 NeoForge'
 
 [download]
-hash = '5d786730c1aee28751d480d497ce893cdff0bb87'
+hash = '4108c653e3e0d54a6df3c5354a752ea0ea801ffe'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6598273
+file-id = 6598103
 project-id = 442354

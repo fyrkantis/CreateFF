@@ -1,18 +1,18 @@
-filename = 'melody_forge_1.0.3_MC_1.20.1-1.20.4.jar'
+filename = 'melody_neoforge_1.0.10_MC_1.21.jar'
 name = 'Melody'
 side = ''
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.4' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[Forge] v1.0.3 MC 1.20.1-1.20.4'
+x-prismlauncher-version-number = '[NeoForge] v1.0.10 MC 1.21'
 
 [download]
-hash = 'e0942d396a70c09038e6c2e5e1da6505178249b8'
+hash = 'e83052a92c4ca0016bcfe7f0207273983dc84698'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5109692
+file-id = 5453382
 project-id = 938643

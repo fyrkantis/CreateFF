@@ -1,25 +1,25 @@
-filename = 'drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar'
+filename = 'drippyloadingscreen_neoforge_3.1.2_MC_1.21.1.jar'
 name = 'Drippy Loading Screen'
 side = ''
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[Forge] v3.1.0 MC 1.20.1'
+x-prismlauncher-version-number = '[NeoForge] v3.1.2 MC 1.21.1'
 
 [download]
-hash = '5c5e9dd39881b9b65dba7d7124690c51430a3ff1'
+hash = 'b47a59369a55f818cadd9e0eeb9352b4028a5e9b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7248426
+file-id = 8032784
 project-id = 511770
 
 [[x-prismlauncher-dependencies]]
-addonId = '367706'
+addonId = '410295'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '410295'
+addonId = '367706'
 type = 'REQUIRED'

@@ -1,21 +1,18 @@
-filename = 'create-stuff-additions1.20.1_v2.1.0.jar'
-name = "Create Stuff 'N Additions"
+filename = 'create-stuff-additions1.21.1_v2.1.0e.jar'
+name = 'Create Stuff & Additions'
 side = 'server'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'Create S&A 1.20.1 V2.1.0'
+x-prismlauncher-version-number = 'Create S&A 1.21.1 V2.1.0e'
 
 [download]
-hash = '02c8a8b61370c28e153e1d2bc9bd0db7a8193854'
+hash = '5de330acd44af9e09430a7710687ad176dabf1e2'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6412397
+file-id = 6448012
 project-id = 466792
-
-[[x-prismlauncher-dependencies]]
-addonId = '328085'
-type = 'REQUIRED'

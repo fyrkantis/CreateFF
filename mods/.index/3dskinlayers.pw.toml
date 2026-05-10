@@ -1,18 +1,18 @@
-filename = 'skinlayers3d-forge-1.10.1-mc1.20.1.jar'
-name = '3D Skin Layers'
-side = 'client'
+filename = 'skinlayers3d-neoforge-1.11.1-mc1.21.1.jar'
+name = '3d-Skin-Layers'
+side = ''
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.10.1'
+x-prismlauncher-version-number = '1.11.1'
 
 [download]
-hash = '9ab0675bc5e5b00b321d2f46ea0ef66eb6a0a517b047443b8c9336c3730e89c093a511011efe5e28564a9bc82f37cef2238abfeb724e424f0d06753615827db0'
+hash = 'cdd870541a7c1dcea5252bbb29858cba1b4a0f379357fa49ea4eb416fe1a068c654864f8ff5b4aca5079fc65f6f4f272e70b0e3cd50981dcc332a7d2cd80cee4'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/zV5r3pPn/versions/evQiUIrz/skinlayers3d-forge-1.10.1-mc1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/zV5r3pPn/versions/lWa5oHuK/skinlayers3d-neoforge-1.11.1-mc1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'zV5r3pPn'
-version = 'evQiUIrz'
+version = 'lWa5oHuK'

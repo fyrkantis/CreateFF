@@ -1,19 +1,19 @@
-filename = 'FastFurnace-1.20.1-8.0.2.jar'
+filename = 'FastFurnace-1.21.1-9.0.1.jar'
 name = 'FastFurnace'
 side = ''
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'FastFurnace-1.20.1-8.0.2.jar'
+x-prismlauncher-version-number = 'FastFurnace-1.21.1-9.0.1.jar'
 
 [download]
-hash = 'b144b8599acd3fac3f8f9d31fa217a4a5b942f61'
+hash = 'acdcdc7c61b49b3b04490fce9843dcf8b531dfc3'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5181098
+file-id = 6751551
 project-id = 299540
 
 [[x-prismlauncher-dependencies]]

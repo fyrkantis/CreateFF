@@ -1,18 +1,21 @@
-filename = 'create_pattern_schematics-1.3.3.jar'
+filename = 'create_pattern_schematics-2.0.10.jar'
 name = 'Create: Pattern Schematics'
 side = 'server'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Create Pattern Schematics 1.3.3 Forge Create 6.0.8 1.20.1 '
+x-prismlauncher-version-number = 'Create: Pattern Schematics 2.0.10 NeoForge 1.21.1'
 
 [download]
-hash = '54ad9320a644dbcde87118e82a6dfcc81cd4757b'
+hash = 'e3dea574c3b3d590444796a42e8f7456280b1063'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7207725
+file-id = 7155413
 project-id = 1072349
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

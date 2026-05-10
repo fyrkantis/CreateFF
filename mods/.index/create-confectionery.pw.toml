@@ -1,19 +1,19 @@
-filename = 'create-confectionery1.20.1_v1.1.0.jar'
+filename = 'create-confectionery1.21.1_v1.1.3b.jar'
 name = 'Create Confectionery'
 side = 'server'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'create-confectionery1.20.1_v1.1.0.jar'
+x-prismlauncher-version-number = 'create-confectionery1.21.1_v1.1.3b.jar'
 
 [download]
-hash = '75b39587e643a2af31e5d0db822a94aaa5d13f08'
+hash = '47e235efa862c5cbea53fdf8346d4c499674defa'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4835793
+file-id = 8063074
 project-id = 531834
 
 [[x-prismlauncher-dependencies]]

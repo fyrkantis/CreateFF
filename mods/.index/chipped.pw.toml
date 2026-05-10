@@ -1,19 +1,19 @@
-filename = 'chipped-forge-1.20.1-3.0.7.jar'
+filename = 'chipped-neoforge-1.21.1-4.0.2.jar'
 name = 'Chipped'
 side = ''
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[Forge] Chipped 3.0.7'
+x-prismlauncher-version-number = '[NeoForge] Chipped 4.0.2'
 
 [download]
-hash = '25ee2a0846059d8f21d28b94b7e0229b60cb5499'
+hash = '6f5395f58139802edfde7cb9170279f92f291971'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5813138
+file-id = 5813117
 project-id = 456956
 
 [[x-prismlauncher-dependencies]]

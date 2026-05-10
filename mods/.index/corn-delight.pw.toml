@@ -1,19 +1,19 @@
-filename = 'corn_delight-1.1.9-1.20.1.jar'
-name = 'Corn Delight[Forge]'
+filename = 'corn_delight-1.2.10-1.21.1.jar'
+name = 'Corn Delight'
 side = 'server'
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'corn_delight-1.1.9-1.20.1.jar'
+x-prismlauncher-version-number = 'corn_delight-1.2.10-1.21.1.jar'
 
 [download]
-hash = '896ac25f3cd3317662017a4a3f49e51eb86cf688'
+hash = '644fa3a8a9ea1be375c1aefff5cf919e36a7835f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6904187
+file-id = 8021963
 project-id = 577805
 
 [[x-prismlauncher-dependencies]]
@@ -21,12 +21,12 @@ addonId = '368098'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '328085'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = '398521'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '231951'

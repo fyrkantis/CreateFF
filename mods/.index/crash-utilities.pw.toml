@@ -1,18 +1,18 @@
-filename = 'crashutilities-8.1.4.jar'
+filename = 'crashutilities-9.0.4.jar'
 name = 'Crash Utilities'
 side = ''
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'crashutilities-8.1.4.jar'
+x-prismlauncher-version-number = 'crashutilities-9.0.4.jar'
 
 [download]
-hash = 'e3c00b7591fd5ea99cfbb853b9369fb999d68ed0'
+hash = '5117a448b0611f60fbe743a4a631e431dd31740e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4716086
+file-id = 5993450
 project-id = 371813

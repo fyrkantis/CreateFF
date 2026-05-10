@@ -1,18 +1,18 @@
-filename = 'collective-1.20.1-8.13.jar'
+filename = 'collective-1.21.1-8.22.jar'
 name = 'Collective'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.20.1-8.13 | Collective'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.21.1-8.22 | Collective'
 
 [download]
-hash = '74b917dd99cd97b2f0480628a1b56958f5e0f5ad'
+hash = 'f3f8b8baf461ea8e8664cf1f8fe6593f8073f36d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7148968
+file-id = 8021351
 project-id = 342584

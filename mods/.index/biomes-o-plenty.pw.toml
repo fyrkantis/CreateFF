@@ -1,21 +1,25 @@
-filename = 'BiomesOPlenty-1.20.1-18.0.0.592.jar'
+filename = 'BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar'
 name = "Biomes O' Plenty"
 side = ''
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = "Biomes O' Plenty 1.20.1-18.0.0.592"
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = "Biomes O' Plenty NeoForge 1.21.1-21.1.0.13"
 
 [download]
-hash = '15072eb39c35a3f845d4bb04690d4b7f1808a980'
+hash = 'a0dec78a9c1bb7e0167e5326aaf3c58a94f3aa86'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4617259
+file-id = 7251965
 project-id = 220318
 
 [[x-prismlauncher-dependencies]]
-addonId = '563928'
+addonId = '940057'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '955399'
 type = 'REQUIRED'

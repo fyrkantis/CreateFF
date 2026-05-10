@@ -1,24 +1,20 @@
-filename = 'alexsdelight-1.5.jar'
+filename = 'alexsdelight-1.6.jar'
 name = "Alex's Delight"
 side = 'server'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'alexsdelight-1.5.jar'
+x-prismlauncher-version-number = 'alexsdelight-1.6.jar'
 
 [download]
-hash = 'ef7049ba6f16df22c8d98dd4dad2d9dc2aa6b6ba'
+hash = '19e8d1e255c431b706e79412be92d8448c668f4c'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5028450
+file-id = 7612806
 project-id = 556448
-
-[[x-prismlauncher-dependencies]]
-addonId = '331936'
-type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '426558'
@@ -26,4 +22,8 @@ type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '398521'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '331936'
 type = 'REQUIRED'

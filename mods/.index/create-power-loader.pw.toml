@@ -1,19 +1,19 @@
-filename = 'create_power_loader-2.0.3-mc1.20.1.jar'
+filename = 'create_power_loader-2.0.3-mc1.21.1.jar'
 name = 'Create: Power Loader'
 side = ''
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'create_power_loader 2.0.3-mc1.20.1'
+x-prismlauncher-version-number = 'create_power_loader 2.0.3-mc1.21.1'
 
 [download]
-hash = '6b638fb67730d8429ec64fb43e20ad651f2e49b6'
+hash = 'd7197ab489c30761dadfb7ef963b99bc8d505df1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6549987
+file-id = 6549980
 project-id = 936020
 
 [[x-prismlauncher-dependencies]]

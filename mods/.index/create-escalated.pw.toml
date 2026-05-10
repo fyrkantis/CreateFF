@@ -1,25 +1,25 @@
-filename = 'escalated-1.2.0-create.6.0.8-mc.1.20.1-forge.jar'
+filename = 'escalated-1.3.0-mc.1.21.1.jar'
 name = 'Create: Escalated'
 side = ''
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Create: Escalated v1.2.0 for Forge 1.20.1, Create v6.0.8'
+x-prismlauncher-version-number = 'Create: Escalated v1.3.0 for NeoForge 1.21.1, Create v6.0.7+'
 
 [download]
-hash = '807454146a589dd13cb867ed7a69c70506ebd57a'
+hash = 'e1587a94282350c7ad80a854961c53b8a347c9c4'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7254038
+file-id = 8069135
 project-id = 1260145
 
 [[x-prismlauncher-dependencies]]
-addonId = '624165'
+addonId = '328085'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '328085'
+addonId = '624165'
 type = 'REQUIRED'

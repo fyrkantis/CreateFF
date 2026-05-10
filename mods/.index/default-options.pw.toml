@@ -1,19 +1,19 @@
-filename = 'defaultoptions-forge-1.20.1-18.0.4.jar'
+filename = 'defaultoptions-neoforge-1.21.1-21.1.6.jar'
 name = 'Default Options'
 side = ''
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'defaultoptions-forge-1.20.1-18.0.4.jar'
+x-prismlauncher-version-number = 'defaultoptions-neoforge-1.21.1-21.1.6.jar'
 
 [download]
-hash = '37ef64d3ae7fda292c882ee949a0280bf6c7f033'
+hash = '92c8695dff4b5143919c4e80e4940c6afe873750'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6972483
+file-id = 7966181
 project-id = 232131
 
 [[x-prismlauncher-dependencies]]

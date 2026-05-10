@@ -1,18 +1,18 @@
-filename = 'caelus-forge-3.2.0+1.20.1.jar'
+filename = 'caelus-neoforge-7.0.1+1.21.1.jar'
 name = 'Caelus API'
 side = ''
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'caelus-forge-3.2.0+1.20.1.jar'
+x-prismlauncher-version-number = 'caelus-neoforge-7.0.1+1.21.1.jar'
 
 [download]
-hash = 'fa834f140bf7dce7b67c29b46cb531f4309d3209'
+hash = 'e4c2e1af4e3082d68f7df75f7c8ce30116d71515'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5281700
+file-id = 5694215
 project-id = 308989

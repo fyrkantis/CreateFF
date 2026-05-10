@@ -1,25 +1,25 @@
-filename = 'some-assembly-required-1.20.1-4.2.2.jar'
-name = 'Create: Some Assembly Required'
+filename = 'someassemblyrequired-5.2.8.jar'
+name = 'Some Assembly Required'
 side = ''
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'some-assembly-required-1.20.1-4.2.2.jar'
+x-prismlauncher-version-number = 'someassemblyrequired-5.2.8.jar'
 
 [download]
-hash = 'f5c1314ae67bce64e95120827a73ed9f1c8cf2b5'
+hash = '5e7fc02b85c7c6f128bdebd65b6133734fce7088'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7159906
+file-id = 7701961
 project-id = 422951
-
-[[x-prismlauncher-dependencies]]
-addonId = '398521'
-type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '328085'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'

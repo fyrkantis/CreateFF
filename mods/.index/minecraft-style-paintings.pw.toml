@@ -1,18 +1,18 @@
-filename = 'Mc style paintings 1.20.1.jar'
-name = 'MC style paintings'
+filename = 'Mc style paintings 1.21.1.jar'
+name = 'minecraft style paintings'
 side = 'server'
 x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Mc style paintings 1.20.1'
+x-prismlauncher-version-number = 'Mc style paintings 1.21.1 New painting'
 
 [download]
-hash = 'fcff732aeb9cd8b37f18cdea49c32ec1b6bd49a1'
+hash = '750d464e371281a91ee9233de1a43613cf9f67b6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7176276
+file-id = 7176279
 project-id = 419711

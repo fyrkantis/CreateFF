@@ -1,0 +1,18 @@
+filename = 'dragonlib-neoforge-1.21.1-beta-3.0.26.jar'
+name = 'DragonLib'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'dragonlib-neoforge-1.21.1-beta-3.0.26'
+
+[download]
+hash = 'df416137bae1b7205965c1a47b7f466da4564fd6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8031875
+project-id = 946163
