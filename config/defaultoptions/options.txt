@@ -1,1 +1,3 @@
-version:3465
+version:3466
+resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","file/Adjusted_Textures.zip"]
+incompatibleResourcePacks:["file/Adjusted_Textures.zip"]
