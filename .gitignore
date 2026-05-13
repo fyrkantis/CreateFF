@@ -37,3 +37,7 @@ docs/*.log
 !config/jei/blacklist.cfg
 !config/jei/ingredient-list-mod-sort-order.ini
 !config/jei/recipe-category-sort-order.ini
+
+# Modifies recipes
+!kubejs/server_scripts
+kubejs/server_scripts/main.js
