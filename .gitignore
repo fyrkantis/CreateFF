@@ -21,6 +21,8 @@ docs/*.log
 !config/drippyloadingscreen/
 !config/alexsmobs.toml
 !config/carryon-common.toml
+!config/defaultoptions/
+!config/DistantHorizons.toml
 !config/endermail-common.toml
 !config/immersive_aircraft.json
 !config/incapacitated-common.toml
@@ -35,4 +37,3 @@ docs/*.log
 !config/jei/blacklist.cfg
 !config/jei/ingredient-list-mod-sort-order.ini
 !config/jei/recipe-category-sort-order.ini
-!config/defaultoptions/
