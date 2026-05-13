@@ -12,7 +12,6 @@ docs/*.log
 
 !mods/
 !profileImage/
-!scripts/
 !defaultconfigs/
 !resourcepacks/
 
