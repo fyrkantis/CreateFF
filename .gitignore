@@ -28,7 +28,10 @@ docs/*.log
 !config/sodiumdynamiclights-client.toml
 !config/supplementaries-common.toml
 !config/waila/waila_plugins.json5
-!config/xaeroworldmap.txt
+!config/xaero/world-map/profiles/default.cfg
+!config/xaero/minimap/profiles/default.cfg
+!config/xaero/world-map/client.cfg
+!config/xaero/minimap/client.cfg
 !config/jei/blacklist.cfg
 !config/jei/ingredient-list-mod-sort-order.ini
 !config/jei/recipe-category-sort-order.ini
