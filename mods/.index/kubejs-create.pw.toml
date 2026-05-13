@@ -1,0 +1,17 @@
+filename = 'kubejs-create-neoforge-2101.3.1-build.18.jar'
+name = 'KubeJS Create'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'KubeJS Create NeoForge 2101.3.1-build.18'
+
+[download]
+hash = 'd4dce8f82f2d37545f085522a782c1bfda222154'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7213667
+project-id = 429371

@@ -1,0 +1,17 @@
+filename = 'BrewinAndChewin-neoforge-4.4.2+1.21.1.jar'
+name = "Brewin' And Chewin'"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v4.4.2 (NeoForge 1.21.1)'
+
+[download]
+hash = 'c01b9e39b4c116c3ce4b1b66f87c1921997337a5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7523542
+project-id = 637808
