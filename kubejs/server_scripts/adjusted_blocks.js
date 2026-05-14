@@ -43,8 +43,7 @@ ServerEvents.recipes(event => {
   event.recipes.create.sequenced_assembly(
     [
       CreateItem.of('create:rose_quartz', 0.5),
-      CreateItem.of('minecraft:redstone', 0.25),
-      CreateItem.of('minecraft:air', 0.25)
+      CreateItem.of('minecraft:redstone', 0.25)
     ],
     'biomesoplenty:rose_quartz_block',
     [

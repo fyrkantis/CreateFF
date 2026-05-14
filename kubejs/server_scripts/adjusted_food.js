@@ -10,17 +10,11 @@ ServerEvents.recipes(event => {
   // This recipe may need adjustment depending on how your pack handles custom-named items.
   // Skipping the bedrock credit recipe as it relied on CraftTweaker NBT syntax.
 
-  // ========== Salt conversion ==========
-  event.shapeless('unusual_delight:salt', ['vintagedelight:salt_dust'])
-    .id('kubejs:salt1')
-  event.shapeless('vintagedelight:salt_dust', ['unusual_delight:salt'])
-    .id('kubejs:salt2')
-
   // ========== Ruby Chocolate (Create Mixing) ==========
   event.remove({ id: 'create_confectionery:ruby_chocolate_recipe' })
   event.recipes.create.mixing(
     [Fluid.of('create_confectionery:ruby_chocolate', 250)],
-    ['minecraft:sugar', 'minecraft:cocoa_beans', Fluid.of('create_central_kitchen:dragon_breath', 250), Fluid.of('minecraft:milk', 250)]
+    ['minecraft:sugar', 'minecraft:cocoa_beans', Fluid.of('create_dragons_plus:dragon_breath', 250), Fluid.of('minecraft:milk', 250)]
   ).heated()
     .id('kubejs:ruby_chocolate')
 
@@ -78,24 +72,6 @@ ServerEvents.recipes(event => {
     ['minecraft:egg', 'minecraft:sugar', Fluid.of('minecraft:milk', 250)]
   ).heated()
     .id('kubejs:pankaka')
-
-  // ========== Fix onion duplication ==========
-  event.remove({ output: 'some_assembly_required:sliced_onion' })
-  event.recipes.farmersdelight.cutting(
-    'farmersdelight:onion',
-    '#c:tools/knife',
-    ['2x some_assembly_required:sliced_onion']
-  ).id('kubejs:sliced_onion')
-
-  // ========== Taco recipe adjustment ==========
-  event.remove({ output: 'corn_delight:taco' })
-  event.shapeless('corn_delight:taco', [
-    'corn_delight:tortilla',
-    '#c:crops/onion',
-    'farmersdelight:tomato',
-    '#c:salad_ingredients',
-    '#c:foods/cooked_beef'
-  ]).id('kubejs:taco')
 })
 
 // ========== Tag modifications ==========

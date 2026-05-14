@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
     'minecraft:chicken',
     '5x farmersdelight:red_mushroom_colony',
     '3x corn_delight:tortilla_chip',
-    '5x some_assembly_required:chopped_carrot',
+    '5x someassemblyrequired:chopped_carrot',
     '2x minecraft:baked_potato',
     'farmersdelight:onion',
     Fluid.of('createaddition:seed_oil', 250)
@@ -50,8 +50,8 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'farmersdelight:nether_salad', type: 'minecraft:crafting_shapeless' })
   event.recipes.create.mixing('farmersdelight:nether_salad', [
     'minecraft:bowl',
-    'nethersdelight:warped_fungus_colony',
-    'nethersdelight:crimson_fungus_colony',
+    'mynethersdelight:warped_fungus_colony',
+    'mynethersdelight:crimson_fungus_colony',
     'alexsmobs:lava_bottle'
   ]).heated()
     .id('kubejs:mmmnethersallad')

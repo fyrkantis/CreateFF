@@ -18,29 +18,39 @@
 
 ServerEvents.recipes(event => {
 
-  // Helper function to reduce repetition
-  // paints a painting with a specific variant using a selector item
+  // Helper function using event.custom() for painting recipes with data components
   function paintingRecipe(id, variant, selectorItems) {
     const selectors = Array.isArray(selectorItems) ? selectorItems : [selectorItems]
-    const ingredients = [...selectors, 'minecraft:painting']
 
-    // In 1.21.1, painting variant is stored as a data component.
-    // This uses the component string syntax for Item.of().
-    const output = Item.of('minecraft:painting',
-      `{minecraft:entity_data:{id:"minecraft:painting",variant:"${variant}"}}`
-    )
+    // Build ingredients array as JSON
+    const ingredientList = selectors.map(sel => {
+      if (typeof sel === 'string' && sel.startsWith('#')) {
+        return { tag: sel.substring(1) }
+      }
+      return { item: sel }
+    })
+    ingredientList.push({ item: 'minecraft:painting' })
 
-    const recipe = event.shapeless(output, ingredients).id(`kubejs:${id}`)
-
-    // Keep all selector items (equivalent to .reuse() in CraftTweaker)
-    selectors.forEach(sel => recipe.keepIngredient(sel))
-
-    return recipe
+    event.custom({
+      type: 'minecraft:crafting_shapeless',
+      category: 'misc',
+      ingredients: ingredientList,
+      result: {
+        id: 'minecraft:painting',
+        count: 1,
+        components: {
+          'minecraft:entity_data': {
+            id: 'minecraft:painting',
+            variant: variant
+          }
+        }
+      }
+    }).id(`kubejs:${id}`)
   }
 
   // ==================== VANILLA MINECRAFT PAINTINGS ====================
 
-  paintingRecipe('kebab', 'minecraft:kebab', 'vintagedelight:ghost_pepper')
+  paintingRecipe('kebab', 'minecraft:kebab', 'mynethersdelight:bullet_pepper')
   paintingRecipe('aztec', 'minecraft:aztec', 'minecraft:white_dye')
   paintingRecipe('alban', 'minecraft:alban', 'minecraft:yellow_dye')
   paintingRecipe('aztec2', 'minecraft:aztec2', 'minecraft:light_gray_dye')
@@ -112,7 +122,6 @@ ServerEvents.recipes(event => {
   paintingRecipe('tree2', 'mcwpaintings:scenery_tree2', 'minecraft:jungle_sapling')
   paintingRecipe('tree3', 'mcwpaintings:scenery_tree3', 'biomesoplenty:redwood_sapling')
   paintingRecipe('tree4', 'mcwpaintings:scenery_tree4', 'biomesoplenty:mahogany_sapling')
-  // NOTE: minecraft:grass was renamed to minecraft:short_grass in 1.20.3+
   paintingRecipe('green_plant', 'mcwpaintings:green_plant', 'minecraft:short_grass')
   paintingRecipe('potted_plant', 'mcwpaintings:potted_plant', 'biomesoplenty:clover')
   paintingRecipe('cacti', 'mcwpaintings:cacti', 'minecraft:cactus')
@@ -133,7 +142,7 @@ ServerEvents.recipes(event => {
   paintingRecipe('swamp', 'mcwpaintings:swamp_land', 'minecraft:mangrove_propagule')
   paintingRecipe('warped', 'mcwpaintings:warped_forest', 'minecraft:warped_fungus')
   paintingRecipe('beach', 'mcwpaintings:beach', 'biomesoplenty:palm_sapling')
-  paintingRecipe('fall', 'mcwpaintings:fall', 'biomesoplenty:orange_autumn_sapling')
+  paintingRecipe('fall', 'mcwpaintings:fall', 'biomesoplenty:orange_maple_sapling')
   paintingRecipe('igloo', 'mcwpaintings:igloo', 'minecraft:snow_block')
   paintingRecipe('lighthouse', 'mcwpaintings:lighthouse', 'minecraft:yellow_stained_glass')
   paintingRecipe('lighthouse_alt', 'mcwpaintings:lighthouse', 'minecraft:yellow_stained_glass_pane')
@@ -146,8 +155,8 @@ ServerEvents.recipes(event => {
   paintingRecipe('mcw_mountain', 'mcwpaintings:mountain', ['minecraft:stone', 'minecraft:stone', 'minecraft:stone'])
   paintingRecipe('arctic', 'mcwpaintings:arctic_sky', 'minecraft:packed_ice')
   paintingRecipe('arctic_alt', 'mcwpaintings:arctic_sky', 'minecraft:blue_ice')
-  paintingRecipe('autumn', 'mcwpaintings:autumn', 'biomesoplenty:yellow_autumn_sapling')
-  paintingRecipe('autumn_feel', 'mcwpaintings:autumn_feel', ['biomesoplenty:yellow_autumn_sapling', 'minecraft:pumpkin'])
+  paintingRecipe('maple', 'mcwpaintings:maple', 'biomesoplenty:yellow_maple_sapling')
+  paintingRecipe('maple_feel', 'mcwpaintings:maple_feel', ['biomesoplenty:yellow_maple_sapling', 'minecraft:pumpkin'])
   paintingRecipe('bat', 'mcwpaintings:bat', 'minecraft:coal')
   paintingRecipe('cat', 'mcwpaintings:cat', 'minecraft:music_disc_cat')
   paintingRecipe('mcw_fox', 'mcwpaintings:fox_view', 'biomesoplenty:dead_sapling')

@@ -3,9 +3,14 @@
 
 ServerEvents.recipes(event => {
 
+  // We only keep the drone and gyrodyne
+  event.remove({ output: 'immersive_aircraft:cargo_airship' })
+  event.remove({ output: 'immersive_aircraft:warship' })
+  event.remove({ output: 'immersive_aircraft:bamboo_hopper' })
+
   // ========== Airship (Mechanical Crafting) ==========
   event.remove({ output: 'immersive_aircraft:airship' })
-  event.recipes.create.mechanical_crafting('immersive_aircraft:airship', [
+  /*event.recipes.create.mechanical_crafting('immersive_aircraft:airship', [
     'SSSSS',
     'T T T',
     'HHEhp',
@@ -14,14 +19,14 @@ ServerEvents.recipes(event => {
     S: 'immersive_aircraft:sail',
     T: 'minecraft:string',
     H: 'immersive_aircraft:hull',
-    e: 'immersive_aircraft:engine',
+    E: 'immersive_aircraft:engine',
     p: 'create:propeller',
     s: '#create:seats'
-  }).id('kubejs:airship')
+  }).id('kubejs:airship')*/
 
   // ========== Biplane (Mechanical Crafting) ==========
   event.remove({ output: 'immersive_aircraft:biplane' })
-  event.recipes.create.mechanical_crafting('immersive_aircraft:biplane', [
+  /*event.recipes.create.mechanical_crafting('immersive_aircraft:biplane', [
     '   S ',
     'S  S ',
     'HHsEP',
@@ -33,7 +38,7 @@ ServerEvents.recipes(event => {
     s: '#create:seats',
     E: 'immersive_aircraft:engine',
     P: 'immersive_aircraft:propeller'
-  }).id('kubejs:biplane')
+  }).id('kubejs:biplane')*/
 
   // ========== Boiler ==========
   event.remove({ output: 'immersive_aircraft:boiler' })

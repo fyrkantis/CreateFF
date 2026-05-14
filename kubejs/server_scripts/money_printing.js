@@ -20,9 +20,9 @@ ServerEvents.recipes(event => {
       // In KubeJS Create for 1.21.1, deploying with NBT/enchanted items may require
       // Item.of() with component data. Adjust the enchantment format for 1.21 data components.
       event.recipes.create.deploying('minecraft:paper', ['minecraft:paper',
-        Item.of('minecraft:netherite_hoe', '{Enchantments:[{id:"minecraft:silk_touch",lvl:1b}]}')
+        Item.of('minecraft:netherite_hoe').enchant('minecraft:silk_touch', 1)
       ]).keepHeldItem(),
-      event.recipes.create.filling('minecraft:paper', ['minecraft:paper', Fluid.of('create_enchantment_industry:ink', 250)]),
+      event.recipes.create.filling('minecraft:paper', ['minecraft:paper', Fluid.of('create_dragons_plus:black_dye', 250)]),
       event.recipes.create.pressing('minecraft:paper', 'minecraft:paper')
     ]
   )
