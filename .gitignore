@@ -22,7 +22,6 @@ docs/*.log
 !config/carryon-common.toml
 !config/defaultoptions/
 !config/DistantHorizons.toml
-!config/endermail-common.toml
 !config/immersive_aircraft.json
 !config/incapacitated-common.toml
 !config/quark-common.toml
