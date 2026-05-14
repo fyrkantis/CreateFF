@@ -37,7 +37,7 @@ echo Finished copying mods.
 echo:
 cd CreateFF-X.X-ServerPack
 echo Installing forge server... (this might take a while)
-java -jar ..\createServerPack\forge-1.20.1-47.3.0-installer.jar --installServer >NUL
+java -jar ..\createServerPack\neoforge-21.1.229-installer.jar --installServer >NUL
 echo Done^^!
 move forge-1.20.1-47.3.0-installer.jar.log ..
 echo The forge log file has been moved out of the serverpack directory.
