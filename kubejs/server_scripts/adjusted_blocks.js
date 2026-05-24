@@ -12,6 +12,9 @@ ServerEvents.recipes(event => {
   event.recipes.create.crushing('biomesoplenty:black_sand', 'minecraft:blackstone').processingTime(150)
     .id('kubejs:svart_sand')
 
+  // Makes quarries more efficient, we oon't have to throw away all the cobbled deepslate.
+  event.recipes.create.crushing('minecraft:gravel', 'minecraft:cobbled_deepslate').processingTime(300)
+
   // ========== Sandpaper ==========
   event.shapeless('create:sand_paper', ['minecraft:paper', 'biomesoplenty:white_sand'])
     .id('kubejs:vitt_sandpaper')
