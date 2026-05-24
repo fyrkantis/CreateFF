@@ -33,6 +33,7 @@ docs/*.log
 !config/xaero/world-map/client.cfg
 !config/xaero/minimap/client.cfg
 !config/jei/blacklist.cfg
+!config/jei/blacklist.json
 !config/jei/ingredient-list-mod-sort-order.ini
 !config/jei/recipe-category-sort-order.ini
 

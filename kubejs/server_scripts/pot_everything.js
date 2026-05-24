@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing('farmersdelight:roast_chicken_block', [
     'minecraft:chicken',
     '5x farmersdelight:red_mushroom_colony',
-    '3x corn_delight:tortilla_chip',
+    '3x culturaldelights:tortilla_chips',
     '5x someassemblyrequired:chopped_carrot',
     '2x minecraft:baked_potato',
     'farmersdelight:onion',
