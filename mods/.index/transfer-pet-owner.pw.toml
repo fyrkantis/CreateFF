@@ -1,0 +1,18 @@
+filename = 'transfer-pet-owner-v.1.0.0.jar'
+name = 'Transfer Pet Owner'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v.1.0.0+mod'
+
+[download]
+hash = '33cb6fcbc9de55d0250e16e818da1c49bf74aa59d0cfc7eb5676efcb1d3e2f8296decf567a27775b356c8ece67936f302648fb9efbbe0868e5773ac9173724ff'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7iTYUCAo/versions/Fz4Q9To0/transfer-pet-owner-v.1.0.0.jar'
+
+[update.modrinth]
+mod-id = '7iTYUCAo'
+version = 'Fz4Q9To0'

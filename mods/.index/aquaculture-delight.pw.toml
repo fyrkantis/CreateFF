@@ -1,0 +1,18 @@
+filename = 'aquaculturedelight-1.2.0-neoforge-1.21.1.jar'
+name = 'Aquaculture Delight'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.0'
+
+[download]
+hash = 'ef13ec67b0af25a94015d5dcd7a549b3a7759026cd3689923b107e92700f09cc0826f0c98d22fdeef37f2f8d5f1219f6d6edabb5f026b5fec9d347b5e1c23231'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/U9GJqWrI/versions/VFpyJiVp/aquaculturedelight-1.2.0-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'U9GJqWrI'
+version = 'VFpyJiVp'
