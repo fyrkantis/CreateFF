@@ -1,33 +1,29 @@
-filename = 'corn_delight-1.2.10-1.21.1.jar'
-name = 'Corn Delight'
-side = 'server'
+filename = 'iris-flywheel-compat-NeoForge-2.4.0.jar'
+name = 'Iris & Oculus Flywheel Compat'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'corn_delight-1.2.10-1.21.1.jar'
+x-prismlauncher-version-number = 'NeoForge 1.21.1+2.4.0-release'
 
 [download]
-hash = '644fa3a8a9ea1be375c1aefff5cf919e36a7835f'
+hash = 'b8630517b6017f4d075ce594e5ef333b38748029'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8021963
-project-id = 577805
+file-id = 8047971
+project-id = 659897
 
 [[x-prismlauncher-dependencies]]
-addonId = '368098'
+addonId = '455508'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '398521'
+addonId = '394468'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '328085'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '231951'
 type = 'OPTIONAL'
