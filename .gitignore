@@ -14,7 +14,7 @@ docs/*.log
 !profileImage/
 !defaultconfigs/
 !resourcepacks/
-!shaderpacks/
+!shaderpacks/*.zip
 
 !config/fml.toml
 !config/fancymenu/
