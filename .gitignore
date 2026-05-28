@@ -21,6 +21,7 @@ docs/*.log
 !config/drippyloadingscreen/
 !config/alexsmobs-common.toml
 !config/carryon-common.toml
+!config/create-server.toml
 !config/defaultoptions/
 !config/DistantHorizons.toml
 !config/immersive_aircraft.json
