@@ -8,7 +8,7 @@
 !docs/
 docs/CreateFF-X.X-ServerPack
 docs/*.zip
-docs/*.log
+docs/**/*.log
 
 !mods/
 !profileImage/
