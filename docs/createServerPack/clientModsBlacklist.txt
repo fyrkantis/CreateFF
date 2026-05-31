@@ -6,10 +6,12 @@ drippyloadingscreen_neoforge_3.1.2_MC_1.21.1
 entityculling-neoforge-1.10.2-mc1.21.1
 FpsReducer2-neoforge-1.21-2.10
 fancymenu_neoforge_3.9.0_MC_1.21.1
+ImmediatelyFast-NeoForge-1.6.10+1.21.1
 iris-flywheel-compat-NeoForge-2.4.0
 iris-neoforge-1.8.12+mc1.21.1
 LetSleepingDogsLie-1.21-NeoForge-1.3.0
 lithium-neoforge-0.15.3+mc1.21.1
+modernfix-neoforge-5.27.11+mc1.21.1
 notenoughcrashes-neoforge-4.4.9+1.21.1
 reeses-sodium-options-neoforge-1.8.3+mc1.21.4
 shulkerboxtooltip-neoforge-5.1.9+1.21.1

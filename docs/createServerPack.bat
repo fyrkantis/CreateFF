@@ -6,7 +6,7 @@ for /F "delims=" %%p in (createServerPack/serverPackWhitelist.txt) do (
 )
 echo Finished copying config files.
 echo:
-for /r "..\mods" %%f in (*) do (
+for %%f in ("..\mods\*") do (
 	set "exclude=0"
 	for /F "delims=" %%p in (createServerPack/clientModsBlacklist.txt) do (
 		if "%%~nf"=="%%p" (
