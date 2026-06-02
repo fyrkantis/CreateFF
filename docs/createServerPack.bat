@@ -1,3 +1,4 @@
+@echo off
 title Serverpack Creator
 setlocal enabledelayedexpansion
 for /F "delims=" %%p in (createServerPack/serverPackWhitelist.txt) do (
